@@ -1,0 +1,21 @@
+Note 1 Information: Max data length bin: 48  < max pop len bins: 56; so will accumulate larger pop len bins
+Warning 1 : parameter init value is less than parameter min 0 < 2 for parm: 1; search for <now check> in echoinput.sso for parm_type
+Warning 2 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1289; fleet: 1; base_parm#: 14; y: 2008; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 3 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1289; fleet: 1; base_parm#: 14; y: 2009; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 4 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1289; fleet: 1; base_parm#: 14; y: 2010; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 5 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1289; fleet: 1; base_parm#: 14; y: 2011; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 6 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1289; fleet: 1; base_parm#: 14; y: 2012; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 7 : poor convergence in Fmsy, final dy/dy2= -0.0743284
+Warning 8 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2008; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 9 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2009; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 10 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2010; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 11 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2011; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 12 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2012; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Note 2 Information: A revised protocol for the Fcast_yr specification is available and recommended.
+Warning 13 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2008; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 14 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2009; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 15 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2010; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 16 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2011; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Warning 17 Adjustment: Adjusted selparm out of base parm bounds. Phase: 8; Inter: 1823; fleet: 1; base_parm#: 14; y: 2012; min: -20; max: 20; base: -19.23 timevary_val: -21.0635  SizeSpline_Val_2_Commercial(1)
+Note 3 Information:  N parameters that are on or within 1% of min-max bound: 3; check results, variance may be suspect
+ 17 warnings  and 3 notes 

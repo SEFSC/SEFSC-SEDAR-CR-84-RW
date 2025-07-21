@@ -1,0 +1,390 @@
+<html><head><title>SS Output</title>
+    <!-- source for text below is http://unraveled.com/publications/css_tabs/ -->
+    <!-- CSS Tabs is licensed under Creative Commons Attribution 3.0 - http://creativecommons.org/licenses/by/3.0/ -->
+    
+    <style type="text/css">
+    
+    body {
+    font: 100% verdana, arial, sans-serif;
+    background-color: #fff;
+    margin: 50px;
+    }
+    
+    /* begin css tabs */
+    
+    ul#tabnav { /* general settings */
+    text-align: left; /* set to left, right or center */
+    margin: 1em 0 1em 0; /* set margins as desired */
+    font: bold 11px verdana, arial, sans-serif; /* set font as desired */
+    border-bottom: 1px solid #6c6; /* set border COLOR as desired */
+    list-style-type: none;
+    padding: 3px 10px 2px 10px; /* THIRD number must change with respect to padding-top (X) below */
+    }
+    
+    ul#tabnav li { /* do not change */
+    display: inline;
+    }
+    
+    body#tab1 li.tab1, body#tab2 li.tab2, body#tab3 li.tab3, body#tab4 li.tab4 { /* settings for selected tab */
+    border-bottom: 1px solid #fff; /* set border color to page background color */
+    background-color: #fff; /* set background color to match above border color */
+    }
+    
+    body#tab1 li.tab1 a, body#tab2 li.tab2 a, body#tab3 li.tab3 a, body#tab4 li.tab4 a { /* settings for selected tab link */
+    background-color: #fff; /* set selected tab background color as desired */
+    color: #000; /* set selected tab link color as desired */
+    position: relative;
+    top: 1px;
+    padding-top: 4px; /* must change with respect to padding (X) above and below */
+    }
+    
+    ul#tabnav li a { /* settings for all tab links */
+    padding: 2px 4px; /* set padding (tab size) as desired; FIRST number must change with respect to padding-top (X) above */
+    border: 1px solid #6c6; /* set border COLOR as desired; usually matches border color specified in #tabnav */
+    background-color: #cfc; /* set unselected tab background color as desired */
+    color: #666; /* set unselected tab link color as desired */
+    margin-right: 0px; /* set additional spacing between tabs as desired */
+    text-decoration: none;
+    border-bottom: none;
+    }
+    
+    ul#tabnav a:hover { /* settings for hover effect */
+    background: #fff; /* set desired hover color */
+    }
+    
+    /* end css tabs */
+    
+    
+    h2 {
+    font-size: 20px;
+    color: #4c994c;
+    padding-top: 1px;
+    font-weight: bold;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #6c6;
+    padding-bottom: 2px;
+    padding-left: 0px;
+    }
+    </style></head>
+<!-- Site navigation menu -->
+   <ul id="tabnav">
+    <li class="tab1"><a href="_SS_output.html">Home</a></li>
+    <li class="tab2"><a href="_SS_output_Bio.html">Bio</a></li>
+    <li class="tab3"><a href="_SS_output_Sel.html">Sel</a></li>
+    <li class="tab4"><a href="_SS_output_Timeseries.html">Timeseries</a></li>
+    <li class="tab5"><a href="_SS_output_RecDev.html">RecDev</a></li>
+    <li class="tab6"><a href="_SS_output_S-R.html">S-R</a></li>
+    <li class="tab7"><a href="_SS_output_Catch.html">Catch</a></li>
+    <li class="tab8"><a href="_SS_output_SPR.html">SPR</a></li>
+    <li class="tab9"><a href="_SS_output_Index.html">Index</a></li>
+    <li class="tab10"><a href="_SS_output_Numbers.html">Numbers</a></li>
+    <li class="tab11"><a href="_SS_output_CompDat.html">CompDat</a></li>
+    <li class="tab12"><a href="_SS_output_LenComp.html">LenComp</a></li>
+    <li class="tab13"><a href="_SS_output_SizeComp.html">SizeComp</a></li>
+    <li class="tab14"><a href="_SS_output_Yield.html">Yield</a></li>
+    <li class="tab15"><a href="_SS_output_Data.html">Data</a></li>
+    <li class="tab16"><a href="_SS_output_Pars.html">Pars</a></li>
+    <li class="tab17"><a href="_SS_output_DiagnosticTables.html">DiagnosticTables</a></li>
+  </ul>
+
+
+<h2><a name="Home">Home</h2>
+<p><b>SS version:</b>
+3.30.22.1;_safe;_compile_date:_Jan 30 2024;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_13.1</p>
+
+<p><b>r4ss info:<br></b>
+Version: 1.52.1<br>Date: NULL<br>Built: R 4.5.1; ; 2025-07-18 11:25:50 UTC; windows<br>RemoteType: github<br>RemoteHost: api.github.com<br>RemoteRepo: r4ss<br>RemoteUsername: r4ss<br>RemoteRef: HEAD<br>RemoteSha: 42e24d4110b5a95d908469e0fd542734f4d0e332<br><p><b>Starting time of model:</b>
+Mon Jul 21 15:14:38 2025</p>
+
+<p><b>Warnings (first 20 from file warnings.sso):</b></p>
+
+<pre>
+Note 1 Information: Max data length bin: 48  < max pop len bins: 56; so will accumulate larger pop len bins
+Warning 1 : parameter init value is less than parameter min 0 < 2 for parm: 1; search for <now check> in echoinput.sso for parm_type
+Warning 2 : parameter init value is less than parameter min 0 < 2 for parm: 22; search for <now check> in echoinput.sso for parm_type
+Warning 3 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 36; y: 1983; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 4 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 38; y: 1983; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 5 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 40; y: 1983; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 6 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 36; y: 1986; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 7 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 38; y: 1986; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 8 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 40; y: 1986; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 9 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 1; base_parm#: 17; y: 2004; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 10 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 36; y: 2004; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 11 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 38; y: 2004; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 12 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 40; y: 2004; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 13 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 36; y: 2008; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 14 Adjustment: Adjusted selparm out of base parm bounds. Phase: 1; Inter: 1; fleet: 2; base_parm#: 38; y: 2008; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 15 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1983; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 16 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1983; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 17 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1983; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 18 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1984; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 19 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1984; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 20 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1984; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 21 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1985; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 22 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1985; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 23 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1985; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 24 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1986; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 25 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1986; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 26 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1986; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 27 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1987; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 28 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1987; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 29 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1987; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 30 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1988; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 31 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1988; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 32 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1988; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 33 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1989; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 34 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1989; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 35 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1989; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 36 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1990; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 37 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1990; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 38 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1990; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 39 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1991; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 40 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1991; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 41 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1991; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 42 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1992; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 43 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1992; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 44 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1992; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 45 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1993; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 46 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1993; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 47 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1993; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 48 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1994; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 49 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1994; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 50 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1994; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 51 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1995; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 52 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1995; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 53 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1995; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 54 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1996; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 55 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1996; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 56 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1996; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 57 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1997; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 58 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1997; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 59 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1997; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 60 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1998; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 61 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1998; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 62 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1998; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 63 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 1999; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 64 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 1999; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 65 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 1999; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 66 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2000; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 67 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2000; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 68 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2000; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 69 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2001; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 70 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2001; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 71 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2001; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 72 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2002; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 73 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2002; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 74 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2002; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 75 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2003; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 76 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2003; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 77 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2003; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 78 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 1; base_parm#: 17; y: 2004; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 79 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2004; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 80 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2004; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 81 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2004; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 82 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 1; base_parm#: 17; y: 2005; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 83 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2005; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 84 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2005; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 85 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2005; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 86 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 1; base_parm#: 17; y: 2006; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 87 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2006; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 88 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2006; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 89 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2006; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 90 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 1; base_parm#: 17; y: 2007; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 91 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2007; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 92 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2007; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 93 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 40; y: 2007; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 94 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2008; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 95 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2008; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 96 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2009; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 97 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2009; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 98 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2010; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 99 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2010; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 100 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2011; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 101 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2011; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 102 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 36; y: 2012; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 103 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 1751; fleet: 2; base_parm#: 38; y: 2012; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 104 : Final gradient: 0.000175874 is larger than final_conv: 0.0001
+Warning 105 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1983; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 106 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1983; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 107 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1983; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 108 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1984; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 109 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1984; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 110 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1984; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 111 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1985; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 112 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1985; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 113 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1985; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 114 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1986; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 115 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1986; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 116 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1986; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 117 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1987; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 118 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1987; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 119 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1987; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 120 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1988; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 121 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1988; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 122 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1988; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 123 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1989; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 124 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1989; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 125 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1989; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 126 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1990; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 127 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1990; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 128 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1990; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 129 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1991; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 130 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1991; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 131 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1991; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 132 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1992; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 133 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1992; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 134 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1992; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 135 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1993; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 136 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1993; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 137 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1993; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 138 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1994; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 139 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1994; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 140 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1994; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 141 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1995; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 142 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1995; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 143 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1995; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 144 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1996; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 145 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1996; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 146 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1996; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 147 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1997; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 148 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1997; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 149 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1997; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 150 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1998; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 151 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1998; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 152 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1998; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 153 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1999; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 154 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1999; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 155 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1999; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 156 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2000; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 157 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2000; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 158 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2000; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 159 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2001; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 160 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2001; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 161 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2001; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 162 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2002; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 163 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2002; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 164 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2002; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 165 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2003; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 166 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2003; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 167 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2003; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 168 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2004; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 169 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2004; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 170 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2004; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 171 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2004; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 172 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2005; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 173 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2005; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 174 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2005; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 175 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2005; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 176 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2006; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 177 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2006; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 178 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2006; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 179 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2006; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 180 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2007; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 181 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2007; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 182 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2007; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 183 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2007; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 184 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2008; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 185 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2008; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 186 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2009; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 187 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2009; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 188 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2010; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 189 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2010; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 190 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2011; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 191 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2011; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 192 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2012; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 193 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2012; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Note 2 Information: A revised protocol for the Fcast_yr specification is available and recommended.
+Warning 194 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1983; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 195 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1983; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 196 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1983; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 197 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1984; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 198 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1984; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 199 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1984; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 200 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1985; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.86553  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 201 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1985; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.84915  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 202 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1985; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0507727  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 203 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1986; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 204 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1986; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 205 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1986; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 206 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1987; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 207 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1987; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 208 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1987; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 209 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1988; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 210 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1988; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 211 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1988; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 212 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1989; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 213 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1989; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 214 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1989; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 215 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1990; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 216 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1990; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 217 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1990; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 218 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1991; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 219 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1991; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 220 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1991; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 221 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1992; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 222 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1992; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 223 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1992; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 224 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1993; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 225 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1993; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 226 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1993; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 227 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1994; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 228 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1994; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 229 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1994; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 230 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1995; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 231 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1995; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 232 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1995; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 233 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1996; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 234 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1996; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 235 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1996; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 236 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1997; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 237 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1997; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 238 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1997; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 239 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1998; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 240 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1998; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 241 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1998; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 242 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 1999; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 243 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 1999; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 244 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 1999; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 245 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2000; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 246 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2000; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 247 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2000; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 248 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2001; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 249 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2001; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 250 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2001; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 251 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2002; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 252 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2002; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 253 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2002; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 254 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2003; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.96875  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 255 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2003; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.75651  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 256 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2003; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.0530074  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 257 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2004; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 258 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2004; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 259 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2004; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 260 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2004; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 261 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2005; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 262 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2005; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 263 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2005; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 264 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2005; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 265 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2006; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 266 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2006; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 267 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2006; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 268 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2006; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 269 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 1; base_parm#: 17; y: 2007; min: -0.75; max: -0.55; base: -0.550205 timevary_val: -0.843637  SizeSpline_Val_5_Commercial_PR(1)
+Warning 270 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2007; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.58413  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 271 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2007; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.309  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 272 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 40; y: 2007; min: -0.4; max: -0.3; base: -0.399236 timevary_val: -0.280047  SizeSpline_Val_7_Commercial_STTSTJ(2)
+Warning 273 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2008; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 274 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2008; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 275 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2009; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 276 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2009; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 277 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2010; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 278 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2010; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 279 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2011; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 280 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2011; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 281 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 36; y: 2012; min: -6.5; max: -4; base: -6.49606 timevary_val: -6.99879  SizeSpline_Val_3_Commercial_STTSTJ(2)
+Warning 282 Adjustment: Adjusted selparm out of base parm bounds. Phase: 5; Inter: 2365; fleet: 2; base_parm#: 38; y: 2012; min: -0.75; max: -0.6; base: -0.747734 timevary_val: -1.40338  SizeSpline_Val_5_Commercial_STTSTJ(2)
+Warning 283 : Reminder: Number of lamdas !=0.0 and !=1.0:  2
+Note 3 Information:  N parameters that are on or within 1% of min-max bound: 2; check results, variance may be suspect
+ 283 warnings  and 3 notes 
+</pre>
