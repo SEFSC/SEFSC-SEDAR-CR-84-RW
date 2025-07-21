@@ -1,4 +1,4 @@
-# SEDAR 84 Review Workshop HW {.unnumbered}
+# SEDAR 84 Review Workshop HW
 
 Included is a compilation of the stock assessment model runs developed during the SEDAR 84 Review Workshop held from July 15 to July 18, 2025 in Fort Lauderdale, Florida.
 
@@ -8,9 +8,7 @@ For Puerto Rico Yellowtail Snapper, a third and a fourth model were developed. T
 
 Finally, two models were developed with combined data from Puerto Rico and St. Thomas and St. John, USVI. These included two fleets and five surveys, with spatially restricted NCRMP surveys incorporated separately from the island-wide surveys recommended by the data workshop and included in the assessment report model runs. To test for model convergence, the second model built on this structure with fixed selectivity and steepness and estimated length at maximum age.
 
-The following table summarizes the models described above, and the subsequent sections provide R4SS-generated figures. PNG versions of the plots are available in the corresponding GitHub repository.
-
-{{< pagebreak >}}
+The following table summarizes the models described above, and the subsequent sections provide R4SS-generated figures. PNG versions of the plots are available in the Scenraios folder of this GitHub repository.
 
 | Model | Description |
 |:-----------------|------------------------------------------------------|
@@ -26,6 +24,5 @@ The following table summarizes the models described above, and the subsequent se
 | PR_STTJ_RW_1 | PR_RW_3 + STTJ Fleet and STJ Survey; **does not converge** |
 | PR_STTJ_RW_2 | PR_STTJ_RW_1 + Estimated Length at Maximum Age and Fixed Selectivity and 0.8 Steepness |
 
-: Summary of Review Workshop SEDAR 84 models. {#tbl-rw-dev}
 
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.
