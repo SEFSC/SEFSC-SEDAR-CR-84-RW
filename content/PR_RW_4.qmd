@@ -1,0 +1,77 @@
+# PR_RW_4 {.unnumbered}
+
+::: {#PR_RW_4-fig-group1 layout-ncol="2"}
+![Size at age](/Scenarios/PR_RW_4/plots/bio1_sizeatage.png)
+
+![Observed and expected landings](/Scenarios/PR_RW_4/plots/catch3_observed_and_expected_landings_(if_different).png)
+
+![Selectivity](/Scenarios/PR_RW_4/plots/sel01_multiple_fleets_length1.png)
+
+![SPR](/Scenarios/PR_RW_4/plots/SPR1_series.png)
+
+PR_RW_4
+:::
+
+::: {#fig-PR_RW_4-group2 layout-ncol="2"}
+![SPR Phase](/Scenarios/PR_RW_4/plots/SPR4_phase.png)
+
+![SPR Ratio](/Scenarios/PR_RW_4/plots/SPR3_ratiointerval.png)
+
+![Lenth fit aggregated across time](/Scenarios/PR_RW_4/plots/comp_lenfit__aggregated_across_time.png)
+
+![Length fit](/Scenarios/PR_RW_4/plots/comp_lenfit__multi-fleet_comparison.png)
+:::
+
+::: {#fig-PR_RW_4-group3 layout-ncol="2"}
+![Mean length NCRMP](/Scenarios/PR_RW_4/plots/comp_lenfit_data_weighting_TA1-8_NCRMP.png)
+
+![Mean length Commercial](/Scenarios/PR_RW_4/plots/comp_lenfit_data_weighting_TA1-8_Commercial.png)
+
+![Mean length NCRMP La Parguera](/Scenarios/PR_RW_4/plots/comp_sizefit_data_weighting_TA1-8_NCRMP_LAP.png)
+
+![Fishing Mortality](/Scenarios/PR_RW_4/plots/ts_summaryF.png)
+:::
+
+::: {#fig-PR_RW_4-group4 layout-ncol="2"}
+![Recruitment deviations](/Scenarios/PR_RW_4/plots/recdevs1_points.png)
+
+![Unfished ratio](/Scenarios/PR_RW_4/plots/ts9_Fraction_of_unfished_spawning_output.png)
+
+![Parameters pg. 1](/Scenarios/PR_RW_4/plots/parameter_distributions_page1.png)
+
+![Parameters pg. 2](/Scenarios/PR_RW_4/plots/parameter_distributions_page2.png)
+
+PR_RW_4
+:::
+
+::: {#fig-PR_RW_4-group5 layout-ncol="2"}
+![Length comps Commercial pg. 1](/Scenarios/PR_RW_4/plots/comp_lenfit_flt1mkt0_page1.png)
+
+![Length comps Commercial pg. 2](/Scenarios/PR_RW_4/plots/comp_lenfit_flt1mkt0_page2.png)
+
+![Length comps Commercial pg. 3](/Scenarios/PR_RW_4/plots/comp_lenfit_flt1mkt0_page3.png)
+
+![Length comps Commercial pg. 4](/Scenarios/PR_RW_4/plots/comp_lenfit_flt1mkt0_page4.png)
+
+PR_RW_4
+:::
+
+::: {#fig-PR_RW_4-group6 layout-ncol="2"}
+![Length comps Commercial pg. 5](/Scenarios/PR_RW_4/plots/comp_lenfit_flt1mkt0_page5.png)
+
+![Length comps NCRMP](/Scenarios/PR_RW_4/plots/comp_lenfit_flt2mkt0.png)
+
+![Length comps La Parguera NCRMP pg. 1](/Scenarios/PR_RW_4/plots/comp_sizefit_flt3mkt0_page1.png)
+
+![Length comps La Parguera NCRMP pg. 2](/Scenarios/PR_RW_4/plots/comp_sizefit_flt3mkt0_page2.png)
+
+PR_RW_4
+:::
+
+::: {#fig-PR_RW_4-group7 layout-ncol="2"}
+![Index NCRMP](/Scenarios/PR_RW_4/plots/index2_cpuefit_NCRMP.png)
+
+![Index La Parguera NCRMP](/Scenarios/PR_RW_4/plots/index2_cpuefit_NCRMP_LAP.png)
+
+PR_RW_4
+:::

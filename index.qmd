@@ -8,12 +8,14 @@ For Puerto Rico Yellowtail Snapper, a third and a fourth model were developed. T
 
 Finally, two models were developed with combined data from Puerto Rico and St. Thomas and St. John, USVI. These included two fleets and five surveys, with spatially restricted NCRMP surveys incorporated separately from the island-wide surveys recommended by the data workshop and included in the assessment report model runs. To test for model convergence, the second model built on this structure with fixed selectivity and steepness and estimated length at maximum age.
 
-The following table summarizes the models described above, and the subsequent sections provide R4SS-generated figures. PNG versions of the plots are available in the corresponding GitHub repository.
+@tbl-rw-dev summarizes the models described above, and the subsequent sections provide R4SS-generated figures.  PNG versions of the plots are available in the corresponding [GitHub repository](<https://github.com/SEFSC/SEFSC-SEDAR-CR-84-RW>). 
+
+For each model, key Spawning Potential Ratio (SPR) plots are provided with horizontal red lines indicating the MSY proxy of 40% SPR. The SPR plot shows the estimated spawning potential ratio over time. Similarly, the unfished ratio plot presents the time series of the fraction of unfished spawning output. Lastly, the fishing intensity plot displays the inverse of the SPR (1 − SPR).
 
 {{< pagebreak >}}
 
 | Model | Description |
-|:-----------------|------------------------------------------------------|
+|:--------------------|---------------------------------------------------|
 | STX_RW_1 | Single Sex, F method 2, Catch SE = 0.3, and Corrected Survey SE |
 | STX_RW_2 | STX_RW_1 + Catch SE = 2 and Estimated Growth |
 | STTJ_RW_1 | Single Sex, F method 2, Catch SE = 0.3, and Corrected Survey SE |

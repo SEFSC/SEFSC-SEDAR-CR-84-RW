@@ -1,0 +1,47 @@
+# STX_RW_1 {.unnumbered}
+
+::: {#fig-STX-RW-1-group1 layout-ncol="2"}
+![Size at age](/Scenarios/STX_RW_1/plots/bio1_sizeatage.png)
+
+![Observed and expected landings](/Scenarios/STX_RW_1/plots/catch3_observed_and_expected_landings_(if_different).png)
+
+![Selectivity](/Scenarios/STX_RW_1/plots/sel01_multiple_fleets_length1.png)
+
+![SPR](/Scenarios/STX_RW_1/plots/SPR1_series.png)
+
+STX_RW_1
+:::
+
+::: {#fig-STX_RW_1-group2 layout-ncol="2"}
+![SPR Phase](/Scenarios/STX_RW_1/plots/SPR4_phase.png)
+
+![SPR Ratio](/Scenarios/STX_RW_1/plots/SPR3_ratiointerval.png)
+
+![Lenth fit aggregated across time](/Scenarios/STX_RW_1/plots/comp_lenfit__aggregated_across_time.png)
+
+![Length fit](/Scenarios/STX_RW_1/plots/comp_lenfit__multi-fleet_comparison.png)
+
+STX_RW_1
+:::
+
+::: {#fig-STX_RW_1-group3 layout-ncol="2"}
+![Mean length NCRMP](/Scenarios/STX_RW_1/plots/comp_lenfit_data_weighting_TA1-8_NCRMP.png)
+
+![Recruitment deviations](/Scenarios/STX_RW_1/plots/recdevs1_points.png)
+
+![Unfished ratio](/Scenarios/STX_RW_1/plots/ts9_Fraction_of_unfished_spawning_output_with_95_asymptotic_intervals_intervals.png)
+
+![Fishing Mortality](/Scenarios/STX_RW_1/plots/ts_summaryF.png)
+
+STX_RW_1
+:::
+
+::: {#fig-STX_RW_1-group4 layout-ncol="2"}
+![STX_RW_1 Parameters](/Scenarios/STX_RW_1/plots/parameter_distributions.png)
+
+![STX_RW_1 Length comps NCRMP](/Scenarios/STX_RW_1/plots/comp_lenfit_flt2mkt0.png)
+
+![Index NCRMP](/Scenarios/STX_RW_1/plots/index2_cpuefit_NCRMP.png)
+
+STX_RW_1
+:::

@@ -1,7 +1,7 @@
 #V3.30.22.1;_safe;_compile_date:_
 Jan 30 2024
 ;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_13.1
-Fri Jul 18 09:53:30 2025
+Mon Jul 21 17:54:25 2025
 Bmark_relF(by_fleet_&seas) (excluding non-scaled bycatch fleets)
  1 0
 #
@@ -16,7 +16,7 @@ YPR_mask for including catch:
 #V3.30.22.1;_safe;_compile_date:_
 Jan 30 2024
 ;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_13.1
-Fri Jul 18 09:53:30 2025
+Mon Jul 21 17:54:25 2025
 Bmark_relF(by_fleet_&seas) (excluding non-scaled bycatch fleets)
  1 0
 #
@@ -206,7 +206,7 @@ MSY_cost 0
 MSY_profit 288.272
 Biomass_Smry 887.243 0.935022
 #
-THIS FORECAST IS FOR PURPOSES OF GETTING DISPLAY QUANTITIES
+THIS FORECAST FOR PURPOSES OF STD REPORTING
 1:  Forecast_using_Fspr: 0.184181
 Annual_Forecast_Fmult: 0.184181
 Fmultiplier_during_selected_relF_years_was: 0.193375
@@ -230,14 +230,15 @@ OY_Control_Rule  Inflection: 0.4 Intercept: 0.1 Scale: 0.913; Policy (1): ramp s
 #
 FORECAST:_With_Constant_F=Fofl;_No_Input_Catches_or_Adjustments;_Equil_Recr;_No_inpl_error
 pop year ABC_Loop season Ramp&Buffer bio-all bio-Smry SpawnBio Depletion recruit-0  sel(B):_1 dead(B):_1 retain(B):_1 sel(N):_1 dead(N):_1 retain(N):_1 F:_1 R/C Catch_Cap Total_Catch ann_F
-1 2023 1 1 1 767.746 767.742 390.467 0.181557 947.063  129.177 129.177 129.177 161.117 161.117 161.117 0.184181 R  NA  129.177 0
+1 2023 1 1 1 0 767.742 390.467 0.181557 947.063  129.177 129.177 129.177 161.117 161.117 161.117 0.184181 R  NA  129.177 0
 FORECAST:_With_F=Fabc;_With_Input_Catches_and_Catch_Adjustments;_Equil_Recr;_No_inpl_error
 pop year ABC_Loop season Ramp&Buffer bio-all bio-Smry SpawnBio Depletion recruit-0  sel(B):_1 dead(B):_1 retain(B):_1 sel(N):_1 dead(N):_1 retain(N):_1 F:_1 R/C Catch_Cap Total_Catch ann_F
-1 2023 1 1 1 767.746 767.746 390.467 0.181557 947.063  129.177 129.177 129.177 161.117 161.117 161.117 0.184181 R  NA  129.177 0
-1 2023 2 1 0.546874 767.746 767.746 390.467 0.181557 947.063  73.1537 73.1537 73.1537 91.0687 91.0687 91.0687 0.100724 R  NA  73.1537 0
-1 2023 3 1 0.546874 767.746 767.746 390.467 0.181557 947.063  73.1537 73.1537 73.1537 91.0687 91.0687 91.0687 0.100724 R  NA  73.1537 0
+1 2023 1 1 1 0 767.746 390.467 0.181557 947.063  129.177 129.177 129.177 161.117 161.117 161.117 0.184181 R  NA  129.177 0
+1 2023 2 1 0.546874 0 767.746 390.467 0.181557 947.063  73.1537 73.1537 73.1537 91.0687 91.0687 91.0687 0.100724 R  NA  73.1537 0
+1 2023 3 1 0.546874 0 767.746 390.467 0.181557 947.063  73.1537 73.1537 73.1537 91.0687 91.0687 91.0687 0.100724 R  NA  73.1537 0
 FORECAST:_With_F_to_match_adjusted_catch;_With_Input_Catches_and_Catch_Adjustments;_Stochastic_Recr;_With_inpl_error
 pop year ABC_Loop season Ramp&Buffer bio-all bio-Smry SpawnBio Depletion recruit-0  sel(B):_1 dead(B):_1 retain(B):_1 sel(N):_1 dead(N):_1 retain(N):_1 F:_1 R/C Catch_Cap Total_Catch ann_F
-1 2023 3 1 0.546874 767.746 767.746 390.467 0.181557 947.063  73.1537 73.1537 73.1537 91.0687 91.0687 91.0687 0.100724 R  NA  73.1537 0.0952837
+1 2023 3 1 0.546874 0 767.746 390.467 0.181557 947.063  73.1537 73.1537 73.1537 91.0687 91.0687 91.0687 0.100724 R  NA  73.1537 0.0952837
+THIS FORECAST IS FOR PURPOSES OF GETTING DISPLAY QUANTITIES
 #
  FORECAST: in Bzero report with fishery onoff= 0

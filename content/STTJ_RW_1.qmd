@@ -1,0 +1,67 @@
+# STTJ_RW_1 {.unnumbered}
+
+::: {#STTJ_RW_1-fig-group1 layout-ncol="2"}
+![Size at age](/Scenarios/STTJ_RW_1/plots/bio1_sizeatage.png)
+
+![Observed and expected landings](/Scenarios/STTJ_RW_1/plots/catch3_observed_and_expected_landings_(if_different).png)
+
+![Selectivity](/Scenarios/STTJ_RW_1/plots/sel01_multiple_fleets_length1.png)
+
+![SPR](/Scenarios/STTJ_RW_1/plots/SPR1_series.png)
+
+STTJ_RW_1
+:::
+
+::: {#fig-STTJ_RW_1-group2 layout-ncol="2"}
+![SPR Phase](/Scenarios/STTJ_RW_1/plots/SPR4_phase.png)
+
+![SPR Ratio](/Scenarios/STTJ_RW_1/plots/SPR3_ratiointerval.png)
+
+![Lenth fit aggregated across time](/Scenarios/STTJ_RW_1/plots/comp_lenfit__aggregated_across_time.png)
+
+![Length fit](/Scenarios/STTJ_RW_1/plots/comp_lenfit__multi-fleet_comparison.png)
+
+STTJ_RW_1
+:::
+
+::: {#fig-STTJ_RW_1-group3 layout-ncol="2"}
+![Mean length NCRMP](/Scenarios/STTJ_RW_1/plots/comp_lenfit_data_weighting_TA1-8_NCRMP.png)
+
+![Mean length DCRMP](/Scenarios/STTJ_RW_1/plots/comp_lenfit_data_weighting_TA1-8_DCRMP.png)
+
+STTJ_RW_1
+:::
+
+::: {#fig-STTJ_RW_1-group4 layout-ncol="2"}
+![Recruitment deviations](/Scenarios/STTJ_RW_1/plots/recdevs1_points.png)
+
+![Fishing Mortality](/Scenarios/STTJ_RW_1/plots/ts_summaryF.png)
+
+![Unfished ratio](/Scenarios/STTJ_RW_1/plots/ts9_Fraction_of_unfished_spawning_biomass_with_95_asymptotic_intervals_intervals.png)
+
+STTJ_RW_1
+:::
+
+::: {#fig-STTJ_RW_1-group5 layout-ncol="2"}
+![Parameters pg. 1](/Scenarios/STTJ_RW_1/plots/parameter_distributions_page1.png)
+
+![Parameters pg. 2](/Scenarios/STTJ_RW_1/plots/parameter_distributions_page2.png)
+
+STTJ_RW_1
+:::
+
+::: {#fig-STTJ_RW_1-group6 layout-ncol="2"}
+![Length comps NCRMP](/Scenarios/STTJ_RW_1/plots/comp_lenfit_flt2mkt0.png)
+
+![Length comps DCRMP](/Scenarios/STTJ_RW_1/plots/comp_lenfit_flt3mkt0.png)
+
+STTJ_RW_1
+:::
+
+::: {#fig-STTJ_RW_1-group7 layout-ncol="2"}
+![Index NCRMP](/Scenarios/STTJ_RW_1/plots/index2_cpuefit_NCRMP.png)
+
+![Index DCRMP](/Scenarios/STTJ_RW_1/plots/index2_cpuefit_DCRMP.png)
+
+STTJ_RW_1
+:::

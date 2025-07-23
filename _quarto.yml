@@ -5,6 +5,18 @@ book:
   title: "SEFSC-SEDAR-CR-84-RW"
   chapters:
     - index.qmd
+    - content/STX_RW_1.qmd
+    - content/STX_RW_2.qmd
+    - content/STTJ_RW_1.qmd
+    - content/STTJ_RW_2.qmd
+    - content/STTJ_RW_3.qmd
+    - content/PR_RW_1.qmd
+    - content/PR_RW_2.qmd
+    - content/PR_RW_3.qmd
+    - content/PR_RW_4.qmd
+    - content/PR_STTJ_RW_1.qmd
+    - content/PR_STTJ_RW_2.qmd
+    
 
 format: pdf
 

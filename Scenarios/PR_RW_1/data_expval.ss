@@ -5,7 +5,7 @@
 #_User_info_available_at:https://vlab.noaa.gov/group/stock-synthesis
 #_Source_code_at:_https://github.com/nmfs-ost/ss3-source-code
 
-#_Start_time: Fri Jul 18 09:53:23 2025
+#_Start_time: Mon Jul 21 17:53:44 2025
 #_expected_values
 #C should work with SS version:
 #C file created using an r4ss function

@@ -1,0 +1,157 @@
+
+Initial statistics: 28 variables; iteration 0; function evaluation 0; phase 1
+Function value 2.0413512e+02; maximum gradient component mag -1.5960e+03
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.27236 -3.96607e+02 |  2  0.00000  1.44911e+02 |  3  0.00000 -1.98476e+00
+  4  0.00000  2.33330e+01 |  5  0.00000 -2.21629e+01 |  6  0.00000  8.15974e+00
+  7  0.00000 -6.93258e+01 |  8  0.00000  1.76540e+02 |  9  0.00000  1.01211e+02
+ 10  0.00000  1.51208e+02 | 11  0.00000  1.69149e+01 | 12  0.00000  1.83264e-02
+ 13 -0.57696  7.76939e+01 | 14 -0.85735 -1.26928e+02 | 15 -0.85735 -9.58099e+01
+ 16 -0.85735 -9.31940e+01 | 17 -0.85735 -5.26432e+01 | 18 -0.85735 -5.47008e+01
+ 19 -0.85735 -1.64481e+01 | 20 -0.85735  2.11202e+00 | 21 -0.85735 -4.75690e+00
+ 22 -0.85735 -6.68574e+00 | 23 -0.85735  5.91732e+01 | 24 -0.85735  4.68090e+01
+ 25 -0.02865 -1.59604e+03 | 26 -0.16295 -2.20662e+02 | 27 -0.04974 -1.59255e+02
+ 28 -0.12552 -1.05303e+02 |
+
+Intermediate statistics: 28 variables; iteration 20; function evaluation 26; phase 1
+Function value 1.6076449e+02; maximum gradient component mag -1.3017e+02
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.24306  7.56417e+00 |  2 -0.06994  8.24000e+01 |  3  0.00043  6.04503e+01
+  4 -0.09318 -7.15506e+01 |  5 -0.05690 -5.34245e+01 |  6 -0.08804 -4.27816e+01
+  7 -0.06734 -8.65450e+01 |  8 -0.08355  1.17625e+02 |  9 -0.08147  5.20005e+01
+ 10 -0.12749  2.72171e+01 | 11 -0.10626 -1.15138e+01 | 12 -0.00008  2.53925e-02
+ 13 -0.75025  6.10153e+00 | 14 -0.79716 -3.10186e+00 | 15 -0.86217 -3.03865e+01
+ 16 -0.84873 -1.73638e+01 | 17 -0.87410 -2.12048e+01 | 18 -0.86044 -2.25492e+00
+ 19 -0.88153 -9.15729e+00 | 20 -0.89008 -1.87332e+01 | 21 -0.86648  2.16160e+01
+ 22 -0.86629  1.12685e+01 | 23 -0.90525 -3.43034e+01 | 24 -0.88203  2.10397e+01
+ 25 -0.02867 -9.90211e+01 | 26 -0.18398 -1.30169e+02 | 27 -0.04986 -9.98023e+01
+ 28 -0.14658 -8.26225e+01 |
+
+ - final statistics:
+28 variables; iteration 34; function evaluation 46
+Function value 1.4706e+02; maximum gradient component mag 8.8560e+00
+Exit code = 1;  converg criter 1.0000e+01
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.26671  8.73080e+00 |  2 -0.12124 -1.76706e+00 |  3 -0.03208 -2.86497e+00
+  4 -0.07677  8.85603e+00 |  5 -0.05338  4.11265e+00 |  6 -0.11071 -5.24441e+00
+  7 -0.03557  7.49012e+00 |  8 -0.12819 -2.16137e-01 |  9 -0.09118 -1.16738e+00
+ 10 -0.15811  4.76910e-01 | 11 -0.07759 -5.36255e+00 | 12 -0.00255 -2.60885e-01
+ 13 -0.57995  4.90275e-01 | 14 -0.62888 -1.65286e+00 | 15 -0.74968 -2.32688e+00
+ 16 -0.76011 -3.31246e+00 | 17 -0.80282 -1.69048e+00 | 18 -0.79479 -1.90655e+00
+ 19 -0.82361 -2.26532e+00 | 20 -0.83083  1.08486e+00 | 21 -0.82433 -5.64462e-01
+ 22 -0.81990 -6.42333e-01 | 23 -0.85579  2.53587e+00 | 24 -0.84984 -1.08044e+00
+ 25 -0.02866  4.43025e+00 | 26 -0.16426  1.31590e+00 | 27 -0.04958  7.43324e+00
+ 28 -0.12706  1.63989e+00 |
+
+ - final statistics:
+28 variables; iteration 0; function evaluation 0
+Function value 1.4706e+02; maximum gradient component mag 8.8560e+00
+Exit code = 0;  converg criter 1.0000e+01
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.26671  8.73080e+00 |  2 -0.12124 -1.76706e+00 |  3 -0.03208 -2.86497e+00
+  4 -0.07677  8.85603e+00 |  5 -0.05338  4.11265e+00 |  6 -0.11071 -5.24441e+00
+  7 -0.03557  7.49012e+00 |  8 -0.12819 -2.16137e-01 |  9 -0.09118 -1.16738e+00
+ 10 -0.15811  4.76910e-01 | 11 -0.07759 -5.36255e+00 | 12 -0.00255 -2.60885e-01
+ 13 -0.57995  4.90275e-01 | 14 -0.62888 -1.65286e+00 | 15 -0.74968 -2.32688e+00
+ 16 -0.76011 -3.31246e+00 | 17 -0.80282 -1.69048e+00 | 18 -0.79479 -1.90655e+00
+ 19 -0.82361 -2.26532e+00 | 20 -0.83083  1.08486e+00 | 21 -0.82433 -5.64462e-01
+ 22 -0.81990 -6.42333e-01 | 23 -0.85579  2.53587e+00 | 24 -0.84984 -1.08044e+00
+ 25 -0.02866  4.43025e+00 | 26 -0.16426  1.31590e+00 | 27 -0.04958  7.43324e+00
+ 28 -0.12706  1.63989e+00 |
+
+Initial statistics: 32 variables; iteration 0; function evaluation 0; phase 3
+Function value 1.4705539e+02; maximum gradient component mag 8.8560e+00
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.26671  8.73080e+00 |  2 -0.12124 -1.76706e+00 |  3 -0.03208 -2.86497e+00
+  4 -0.07677  8.85603e+00 |  5 -0.05338  4.11265e+00 |  6 -0.11071 -5.24441e+00
+  7 -0.03557  7.49012e+00 |  8 -0.12819 -2.16137e-01 |  9 -0.09118 -1.16738e+00
+ 10 -0.15811  4.76910e-01 | 11 -0.07759 -5.36255e+00 | 12 -0.00255 -2.60885e-01
+ 13 -0.57995  4.90275e-01 | 14 -0.62888 -1.65286e+00 | 15 -0.74968 -2.32688e+00
+ 16 -0.76011 -3.31246e+00 | 17 -0.80282 -1.69048e+00 | 18 -0.79479 -1.90655e+00
+ 19 -0.82361 -2.26532e+00 | 20 -0.83083  1.08486e+00 | 21 -0.82433 -5.64462e-01
+ 22 -0.81990 -6.42333e-01 | 23 -0.85579  2.53587e+00 | 24 -0.84984 -1.08044e+00
+ 25 -0.07409 -3.43472e+00 | 26 -0.37578 -5.99581e-01 | 27 -0.59547  3.60262e+00
+ 28 -0.02866  4.43025e+00 | 29 -0.16426  1.31590e+00 | 30 -0.26232  7.96098e+00
+ 31 -0.04958  7.43324e+00 | 32 -0.12706  1.63989e+00 |
+
+Intermediate statistics: 32 variables; iteration 20; function evaluation 22; phase 3
+Function value 1.4685464e+02; maximum gradient component mag -7.5572e+01
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.27288 -4.55181e+00 |  2 -0.12256 -4.54790e-01 |  3 -0.03259  1.56811e+00
+  4 -0.08070  2.52573e+00 |  5 -0.05718  1.48975e+00 |  6 -0.10808 -1.22224e+00
+  7 -0.04224 -3.58904e+00 |  8 -0.13339 -6.94597e+00 |  9 -0.09346  3.05679e+00
+ 10 -0.16263  3.58465e+00 | 11 -0.07112 -2.06343e+00 | 12 -0.00115 -7.73245e-02
+ 13 -0.57328 -2.29093e-02 | 14 -0.59737 -2.75590e-01 | 15 -0.73007 -7.92405e-01
+ 16 -0.74120 -1.04360e+00 | 17 -0.78843 -5.31379e-01 | 18 -0.77889 -5.69159e-01
+ 19 -0.81013 -9.82674e-01 | 20 -0.81940 -1.72243e-02 | 21 -0.81167 -2.62131e-01
+ 22 -0.80695 -6.38285e-02 | 23 -0.84634  3.57521e-01 | 24 -0.83781 -8.75447e-01
+ 25 -0.07368  5.44865e+00 | 26 -0.37523  1.25110e-01 | 27 -0.59429 -7.58715e-02
+ 28 -0.02887 -7.55716e+01 | 29 -0.16158  2.25826e+01 | 30 -0.26329 -8.60383e+00
+ 31 -0.05009 -2.58419e+01 | 32 -0.12533 -3.92070e+00 |
+32 variables; iteration 40; function evaluation 50; phase 3
+Function value 1.4679503e+02; maximum gradient component mag 1.3755e-01
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.27335  8.58329e-02 |  2 -0.12223 -6.64134e-03 |  3 -0.03386  3.13641e-03
+  4 -0.08181  2.28401e-02 |  5 -0.05853  1.63868e-02 |  6 -0.10807 -2.28522e-04
+  7 -0.04236  1.34222e-02 |  8 -0.13117 -1.07152e-02 |  9 -0.09444 -1.12895e-02
+ 10 -0.16603 -5.10852e-03 | 11 -0.06509 -3.27928e-03 | 12 -0.00055 -4.20593e-04
+ 13 -0.56891 -5.58379e-03 | 14 -0.59119  1.90374e-03 | 15 -0.72578  8.33450e-04
+ 16 -0.73722  8.86098e-04 | 17 -0.78616  6.57893e-04 | 18 -0.77667 -1.14524e-03
+ 19 -0.80776  2.78119e-03 | 20 -0.81791  8.32929e-03 | 21 -0.80969  3.01287e-03
+ 22 -0.80483  7.67758e-03 | 23 -0.84498  1.08845e-02 | 24 -0.83564  4.93475e-03
+ 25 -0.07370  1.37552e-01 | 26 -0.38484  1.74403e-03 | 27 -0.59472  8.82241e-03
+ 28 -0.02866 -8.24154e-02 | 29 -0.16234  2.49796e-02 | 30 -0.26272  4.24289e-02
+ 31 -0.04956  8.80575e-02 | 32 -0.12469  1.48962e-02 |
+
+ - final statistics:
+32 variables; iteration 59; function evaluation 69
+Function value 1.4680e+02; maximum gradient component mag -3.0442e-05
+Exit code = 1;  converg criter 1.0000e-04
+Var    Value     Gradient |Var    Value     Gradient |Var    Value     Gradient
+  1 -0.27335 -2.76698e-05 |  2 -0.12222  2.14935e-06 |  3 -0.03386 -5.03197e-07
+  4 -0.08181 -5.86138e-06 |  5 -0.05854 -4.16352e-06 |  6 -0.10806  4.84543e-07
+  7 -0.04236 -3.10469e-06 |  8 -0.13117  3.91636e-06 |  9 -0.09444  3.95362e-06
+ 10 -0.16604  1.71651e-06 | 11 -0.06509  9.77529e-07 | 12 -0.00054 -5.26761e-08
+ 13 -0.56888  2.22644e-06 | 14 -0.59119 -3.05852e-07 | 15 -0.72578  1.58260e-07
+ 16 -0.73722  1.57925e-07 | 17 -0.78616  1.68245e-07 | 18 -0.77668  1.19957e-06
+ 19 -0.80777 -4.26038e-07 | 20 -0.81792 -2.10449e-06 | 21 -0.80970 -7.44438e-07
+ 22 -0.80484 -2.15274e-06 | 23 -0.84499 -3.16770e-06 | 24 -0.83565 -1.49068e-06
+ 25 -0.07409  1.11309e-06 | 26 -0.37633  9.55947e-07 | 27 -0.59473 -4.24884e-06
+ 28 -0.02866  5.91396e-06 | 29 -0.16234 -1.20130e-05 | 30 -0.26272 -1.39751e-05
+ 31 -0.04956 -3.04419e-05 | 32 -0.12469 -6.52745e-06 |
+Estimating row 1 out of 32 for hessian
+Estimating row 2 out of 32 for hessian
+Estimating row 3 out of 32 for hessian
+Estimating row 4 out of 32 for hessian
+Estimating row 5 out of 32 for hessian
+Estimating row 6 out of 32 for hessian
+Estimating row 7 out of 32 for hessian
+Estimating row 8 out of 32 for hessian
+Estimating row 9 out of 32 for hessian
+Estimating row 10 out of 32 for hessian
+Estimating row 11 out of 32 for hessian
+Estimating row 12 out of 32 for hessian
+Estimating row 13 out of 32 for hessian
+Estimating row 14 out of 32 for hessian
+Estimating row 15 out of 32 for hessian
+Estimating row 16 out of 32 for hessian
+Estimating row 17 out of 32 for hessian
+Estimating row 18 out of 32 for hessian
+Estimating row 19 out of 32 for hessian
+Estimating row 20 out of 32 for hessian
+Estimating row 21 out of 32 for hessian
+Estimating row 22 out of 32 for hessian
+Estimating row 23 out of 32 for hessian
+Estimating row 24 out of 32 for hessian
+Estimating row 25 out of 32 for hessian
+Estimating row 26 out of 32 for hessian
+Estimating row 27 out of 32 for hessian
+Estimating row 28 out of 32 for hessian
+Estimating row 29 out of 32 for hessian
+Estimating row 30 out of 32 for hessian
+Estimating row 31 out of 32 for hessian
+Estimating row 32 out of 32 for hessian
+size of file gradfil1.tmp = 0
+size of file gradfil2.tmp = 0
+size of file varssave.tmp = 0
+size of file cmpdiff.tmp = 0

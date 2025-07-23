@@ -6,7 +6,7 @@
 #_Source_code_at:_https://github.com/nmfs-ost/ss3-source-code
 
 #C file created using an r4ss function
-#C file write time: 2025-07-17  10:43:27
+#C file write time: 2025-07-17  10:43:30
 #_data_and_control_files: datafile.dat // controlfile.ctl
 0  # 0 means do not read wtatage.ss; 1 means read and use wtatage.ss and also read and use growth parameters
 1  #_N_Growth_Patterns (Growth Patterns, Morphs, Bio Patterns, GP are terms used interchangeably in SS3)
@@ -88,17 +88,6 @@
  -2 4 -0.499057 -0.499057 99 0 -99 0 0 0 0 0 0 0 # Mat_slope_Fem_GP_1
  0 3 1e-05 1e-05 0.8 0 -3 0 0 0 0 0 0 0 # Eggs_scalar_Fem_GP_1
  0 10 3 3 0.8 0 -3 0 0 0 0 0 0 0 # Eggs_exp_len_Fem_GP_1
-# Sex: 2  BioPattern: 1  NatMort
- 0.001 2 0.208 -2.92 0.22 0 -1 0 0 0 0 0 0 0 # NatM_uniform_Mal_GP_1
-# Sex: 2  BioPattern: 1  Growth
- -50 100 0.001 0 10 0 -3 0 0 0 0 0 0 0 # L_at_Amin_Mal_GP_1
- 1 500 42.4 42.4 10 0 -2 0 0 0 0 0 0 0 # L_at_Amax_Mal_GP_1
- 0.001 2 0.23 0.23 0.05 0 -3 0 0 0 0 0 0 0 # VonBert_K_Mal_GP_1
- 0.001 5 0.15 0.15 0.5 0 -4 0 0 0 0 0 0 0 # CV_young_Mal_GP_1
- 0.001 5 0.15 0.15 0.5 0 -4 0 0 0 0 0 0 0 # CV_old_Mal_GP_1
-# Sex: 2  BioPattern: 1  WtLen
- 0 3 1e-05 1e-05 99 0 -99 0 0 0 0 0 0 0 # Wtlen_1_Mal_GP_1
- 2 4 3 3 99 0 -99 0 0 0 0 0 0 0 # Wtlen_2_Mal_GP_1
 # Hermaphroditism
 #  Recruitment Distribution 
  0.1 10 1 1 1 0 -1 0 0 0 0 0 0 0 # RecrDist_GP_1_area_1_month_1
@@ -126,7 +115,7 @@
 0  # 0/1 to use steepness in initial equ recruitment calculation
 0  #  future feature:  0/1 to make realized sigmaR a function of SR curvature
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn #  parm_name
-        0.0001            20       5.81065             7            99             0          1          0          0          0          0          0          0          0 # SR_LN(R0)
+        0.0001            20         5.819             7            99             0          1          0          0          0          0          0          0          0 # SR_LN(R0)
            0.2             1          0.99          0.99          0.24             0         -1          0          0          0          0          0          0          0 # SR_BH_steep
              0             2           0.7           0.7            99             0         -6          0          0          0          0          0          0          0 # SR_sigmaR
             -5             5             0             0            99             0        -99          0          0          0          0          0          0          0 # SR_regime
@@ -158,7 +147,7 @@
 #
 # all recruitment deviations
 #  2012R 2013R 2014R 2015R 2016R 2017R 2018R 2019R 2020R 2021R 2022R 2023F
-#  -0.95593 -0.23555 -0.615868 -0.466833 -0.833409 -0.368955 -1.04399 -0.735488 -1.30005 -0.522378 -0.00425286 0
+#  -0.947837 -0.258659 -0.63459 -0.450826 -0.838024 -0.32672 -1.01756 -0.734273 -1.28505 -0.505557 -0.00421654 0
 #
 #Fishing Mortality info 
 0.03 # F ballpark value in units of annual_F
@@ -174,12 +163,12 @@
 #_initial_F_parms; for each fleet x season that has init_catch; nest season in fleet; count = 1
 #_for unconstrained init_F, use an arbitrary initial catch and set lambda=0 for its logL
 #_ LO HI INIT PRIOR PR_SD  PR_type  PHASE
- 0 10 0.999812 1 999 0 1 # InitF_seas_1_flt_1Commercial
+ 0 10 1.02848 1 999 0 1 # InitF_seas_1_flt_1Commercial
 #
 # F rates by fleet x season
 # Yr:  2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023
 # seas:  1 1 1 1 1 1 1 1 1 1 1 1
-# Commercial 0.382406 0.179417 0.166442 0.112201 0.12413 0.092302 0.0832227 0.0907311 0.0935323 0.0587782 0.0663645 0.205177
+# Commercial 0.387418 0.180729 0.168018 0.112431 0.123028 0.0913967 0.0819689 0.0891549 0.0932268 0.0587122 0.0656786 0.205852
 #
 #_Q_setup for fleets with cpue or survey data
 #_1:  fleet number
@@ -195,8 +184,8 @@
 #
 #_Q_parms(if_any);Qunits_are_ln(q)
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
-           -15            15       -5.9146             0             1             0         -1          0          0          0          0          0          0          0  #  LnQ_base_NCRMP(2)
-           -15            15      -5.37651             0             1             0         -1          0          0          0          0          0          0          0  #  LnQ_base_DCRMP(3)
+           -15            15      -5.82488             0             1             0         -1          0          0          0          0          0          0          0  #  LnQ_base_NCRMP(2)
+           -15            15      -5.37589             0             1             0         -1          0          0          0          0          0          0          0  #  LnQ_base_DCRMP(3)
 #_no timevary Q parameters
 #
 #_size_selex_patterns
@@ -248,26 +237,26 @@
 #
 #_          LO            HI          INIT         PRIOR         PR_SD       PR_type      PHASE    env-var    use_dev   dev_mnyr   dev_mxyr     dev_PH      Block    Blk_Fxn  #  parm_name
 # 1   Commercial LenSelex
-             2            55       25.4229            25            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_peak_Commercial(1)
+             2            55       25.4232            25            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_peak_Commercial(1)
            -15            15            15            15            99             0         -1          0          0          0          0          0          0          0  #  Size_DblN_top_logit_Commercial(1)
-           -10            12      -5.13023       3.58539            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_ascend_se_Commercial(1)
+           -10            12      -5.14208       3.58539            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_ascend_se_Commercial(1)
            -15             6           -15           -15            99             0         -1          0          0          0          0          0          0          0  #  Size_DblN_descend_se_Commercial(1)
           -999            15           -15           -10            99             0         -2          0          0          0          0          0          0          0  #  Size_DblN_start_logit_Commercial(1)
            -15            20            15            15            99             0         -1          0          0          0          0          0          0          0  #  Size_DblN_end_logit_Commercial(1)
 # 2   NCRMP LenSelex
-             2            55       7.17477            15            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_peak_NCRMP(2)
-           -15            15     -0.674609            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_top_logit_NCRMP(2)
+             2            55       7.19478            15            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_peak_NCRMP(2)
+           -15            15     -0.675131            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_top_logit_NCRMP(2)
             -4            12           2.5        4.5254            99             0         -3          0          0          0          0          0          0          0  #  Size_DblN_ascend_se_NCRMP(2)
            -15             6           2.5           -15            99             0         -1          0          0          0          0          0          0          0  #  Size_DblN_descend_se_NCRMP(2)
           -999            15           -15           -10            99             0         -2          0          0          0          0          0          0          0  #  Size_DblN_start_logit_NCRMP(2)
-           -15            20      -1.93368            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_end_logit_NCRMP(2)
+           -15            20      -1.91888            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_end_logit_NCRMP(2)
 # 3   DCRMP LenSelex
-             2            55       17.8839            15            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_peak_DCRMP(3)
-           -15            15      -1.16459            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_top_logit_DCRMP(3)
+             2            55       17.8703            15            99             0          3          0          0          0          0          0          0          0  #  Size_DblN_peak_DCRMP(3)
+           -15            15       -1.1596            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_top_logit_DCRMP(3)
             -4            12           2.5        4.5254            99             0         -3          0          0          0          0          0          0          0  #  Size_DblN_ascend_se_DCRMP(3)
            -15             6           2.5           -15            99             0         -1          0          0          0          0          0          0          0  #  Size_DblN_descend_se_DCRMP(3)
           -999            15           -15           -10            99             0         -2          0          0          0          0          0          0          0  #  Size_DblN_start_logit_DCRMP(3)
-           -15            20      -0.94061            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_end_logit_DCRMP(3)
+           -15            20      -0.91422            15            99             0          1          0          0          0          0          0          0          0  #  Size_DblN_end_logit_DCRMP(3)
 # 1   Commercial AgeSelex
 # 2   NCRMP AgeSelex
 # 3   DCRMP AgeSelex

@@ -1,0 +1,69 @@
+# PR_RW_1 {.unnumbered}
+
+::: {#PR_RW_1-fig-group1 layout-ncol="2"}
+![Size at age](/Scenarios/PR_RW_1/plots/bio1_sizeatage.png)
+
+![Observed and expected landings](/Scenarios/PR_RW_1/plots/catch3_observed_and_expected_landings_(if_different).png)
+
+![Selectivity](/Scenarios/PR_RW_1/plots/sel01_multiple_fleets_length1.png)
+
+![SPR](/Scenarios/PR_RW_1/plots/SPR1_series.png)
+
+PR_RW_1
+:::
+
+::: {#fig-PR_RW_1-group2 layout-ncol="2"}
+![SPR Phase](/Scenarios/PR_RW_1/plots/SPR4_phase.png)
+
+![SPR Ratio](/Scenarios/PR_RW_1/plots/SPR3_ratiointerval.png)
+
+![Lenth fit aggregated across time](/Scenarios/PR_RW_1/plots/comp_lenfit__aggregated_across_time.png)
+
+![Length fit](/Scenarios/PR_RW_1/plots/comp_lenfit__multi-fleet_comparison.png)
+
+PR_RW_1
+:::
+
+::: {#fig-PR_RW_1-group3 layout-ncol="2"}
+![Mean length NCRMP](/Scenarios/PR_RW_1/plots/comp_lenfit_data_weighting_TA1-8_NCRMP.png)
+
+![Mean length Commercial](/Scenarios/PR_RW_1/plots/comp_lenfit_data_weighting_TA1-8_Commercial.png)
+
+![Recruitment deviations](/Scenarios/PR_RW_1/plots/recdevs1_points.png)
+
+![Fishing Mortality](/Scenarios/PR_RW_1/plots/ts_summaryF.png)
+
+PR_RW_1
+:::
+
+::: {#fig-PR_RW_1-group4 layout-ncol="2"}
+![Unfished ratio](/Scenarios/PR_RW_1/plots/ts9_Fraction_of_unfished_spawning_output.png)
+
+![Parameters pg. 1](/Scenarios/PR_RW_1/plots/parameter_distributions_page1.png)
+
+![Parameters pg. 2](/Scenarios/PR_RW_1/plots/parameter_distributions_page2.png)
+
+![Length comps NCRMP](/Scenarios/PR_RW_1/plots/comp_lenfit_flt2mkt0.png)
+
+PR_RW_1
+:::
+
+::: {#fig-PR_RW_1-group5 layout-ncol="2"}
+![Length comps Commercial pg. 1](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page1.png)
+
+![Length comps Commercial pg. 2](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page2.png)
+
+![Length comps Commercial pg. 3](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page3.png)
+
+![Length comps Commercial pg. 4](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page4.png)
+
+PR_RW_1
+:::
+
+::: {#fig-PR_RW_1-group6 layout-ncol="2"}
+![Length comps Commercial pg. 5](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page5.png)
+
+![Index NCRMP](/Scenarios/PR_RW_1/plots/index2_cpuefit_NCRMP.png)
+
+PR_RW_1
+:::
