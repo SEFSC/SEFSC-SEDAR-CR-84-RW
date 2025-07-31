@@ -1,0 +1,84 @@
+---
+title: "Addendum"
+subtitle: "SEDAR 84 St. Thomas and St. John Yellowtail Snapper"
+format: 
+  pdf:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    include-in-header: 
+      - text: |
+          \raggedright
+          \usepackage{caption}
+          \usepackage{fancyhdr}
+          \pagestyle{fancy}
+          \captionsetup[table]{justification=raggedright, format=plain, indention=1em, singlelinecheck=false}
+          \captionsetup[figure]{justification=raggedright, format=plain, indention=1em, singlelinecheck=false}
+          \fancypagestyle{plain}{
+            \fancyhf{}% Clear header/footer
+            \renewcommand{\headrulewidth}{0pt}
+            \fancyhead[LE, LO]{July 2025}
+            \fancyhead[RE, RO]{US Caribbean Yellowtail Snapper – St. Thomas}
+            \fancyfoot[LE, LO]{Addendum}
+            \fancyfoot[RE, RO]{Review Workshop Model Runs}
+            \fancyfoot[CE, CO]{\thepage}
+          }
+          \pagestyle{plain}% Set page style to plain.
+editor: visual
+---
+
+{{< pagebreak >}}
+
+# Introduction
+
+This addendum provides supplementary analyses developed in direct response to requests made by the SEDAR 84 Review Workshop Panel. The model runs and plots presented here build on the configurations documented in the SEDAR 84 Assessment Process Report for US Caribbean Yellowtail Snapper in St. Thomas and St. John, USVI.
+
+The additional model runs conducted during the Review Workshop are intended to document exploratory work that may inform next steps toward refining the assessment framework for consideration by the Caribbean Fishery Management Council’s Science and Statistical Committee.
+
+Only the model runs reviewed by the panel during the Review Workshop are included in this addendum. While additional exploratory analyses could be pursued (e.g., steepness values informed by FishBase rather than assuming steepness near 1), these were not examined during the workshop. Future work will integrate further panel recommendations and additional sensitivity analyses once the Review Workshop Report is finalized.
+
+# Key Considerations
+
+-   All model runs included here were developed under the direction of the Review Workshop Panel to explore data use, model behavior.
+
+-   The models remain preliminary and sensitive to consequential assumptions (e.g., initial equilibrium catch, recruitment steepness, selectivity). Further work is required to address these uncertainties and develop models more robust for informing management advice.
+
+-   At the panel’s recommendation, an exploratory run was developed combining data from Puerto Rico and St. Thomas/St. John. This deviates from the Data Workshop guidance to analyze island platforms separately and to exclude pre-island-specific survey data. The panel suggested this deviation in an attempt to retain additional information to better fit length compositions and stabilize model initialization. Those results are only include in the Puerto Rico addendum.
+
+-   These models do not represent final scientific advice. They are intermediate steps in an iterative review process leading to future model development, SSC review, and eventual management consideration.
+
+{{< pagebreak >}}
+
+# Model Runs
+
+Included is a compilation of the stock assessment model runs developed during the SEDAR 84 Review Workshop held from July 15 to July 18, 2025 in Fort Lauderdale, Florida.
+
+Building on the models documented in the assessment process report for Yellowtail Snapper in St. Thomas and St. John, the review workshop introduced several refinements and exploratory runs. The initial review workshop model used a single-sex configuration, applied the Stock Synthesis F method option 2 and corrected standard error units for the NCRMP survey index of abundance. The second model estimated two growth parameters (the growth coefficient K and the mean length at maximum age). A third model explored the use of a plus age group at age 12.
+
+Finally, two models were developed with combined data from Puerto Rico and St. Thomas and St. John, USVI. These included two fleets and five surveys, with spatially restricted NCRMP surveys incorporated separately from the island-wide surveys recommended by the data workshop and included in the assessment report model runs. To test for model convergence, the second model built on this structure with fixed selectivity and steepness and estimated length at maximum age.
+
+@tbl-rw-dev summarizes the models described above and figures are provided in @sec-figures.
+
+For each model, key Spawning Potential Ratio (SPR) plots are provided with horizontal red lines indicating the MSY proxy of 40% SPR. The SPR plot shows the estimated spawning potential ratio over time. Similarly, the unfished ratio plot presents the time series of the fraction of unfished spawning output. Lastly, the fishing intensity plot displays the inverse of the SPR (1 − SPR).
+
+# Conclusions and Next Steps
+
+These analyses are exploratory and were conducted under panel direction during the SEDAR 84 Review Workshop. Further work is required to evaluate consequential assumptions, add sensitivity runs (e.g., steepness from FishBase), and ensure models are robust to uncertainty. Final recommendations and additional work steps will be determined following completion of the Review Workshop Report, outside of the SEDAR 84 process.
+
+{{< pagebreak >}}
+
+# Tables
+
+| Model | Description |
+|:---------------------|-------------------------------------------------|
+| STTJ_RW_1 | Single Sex, F method 2, Catch SE = 0.3, and Corrected Survey SE |
+| STTJ_RW_2 | STTJ_RW_1 + Catch SE = 2 and Estimated Growth |
+| STTJ_RW_3 | STTJ_RW_1 + 12-year Age Plus Group |
+| PR_STTJ_RW_1 | PR_RW_3 + STTJ Fleet and STJ Survey; **does not converge** |
+| PR_STTJ_RW_2 | PR_STTJ_RW_1 + Estimated Length at Maximum Age and Fixed Selectivity and 0.8 Steepness |
+
+: Summary of Review Workshop SEDAR 84 models for Yellowtail Snapper in Puerto Rico. {#tbl-rw-dev}
+
+{{< pagebreak >}}
+
+# Figures {#sec-figures}
