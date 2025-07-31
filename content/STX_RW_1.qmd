@@ -1,47 +1,53 @@
-# STX_RW_1 {.unnumbered}
-
-::: {#fig-STX-RW-1-group1 layout-ncol="2"}
+::: {#fig-STX_RW_1-group1 layout-ncol="2"}
 ![Size at age](/Scenarios/STX_RW_1/plots/bio1_sizeatage.png)
 
 ![Observed and expected landings](/Scenarios/STX_RW_1/plots/catch3_observed_and_expected_landings_(if_different).png)
 
 ![Selectivity](/Scenarios/STX_RW_1/plots/sel01_multiple_fleets_length1.png)
 
-![SPR](/Scenarios/STX_RW_1/plots/SPR1_series.png)
+![Index NCRMP](/Scenarios/STX_RW_1/plots/index2_cpuefit_NCRMP.png)
 
-STX_RW_1
+St. Croix Stoplight Parrotfish Review Workshop Model STX_RW_1. (a) Length at age in the beginning of the year (or season) in the ending year of the model. Shaded area indicates 95% distribution of length at age around estimated growth curve; (b) observed and expected landings; (c) selectivity at length by fleet; and (d) Fit to index data for the NCRMP survey.
 :::
 
 ::: {#fig-STX_RW_1-group2 layout-ncol="2"}
-![SPR Phase](/Scenarios/STX_RW_1/plots/SPR4_phase.png)
-
-![SPR Ratio](/Scenarios/STX_RW_1/plots/SPR3_ratiointerval.png)
-
 ![Lenth fit aggregated across time](/Scenarios/STX_RW_1/plots/comp_lenfit__aggregated_across_time.png)
 
-![Length fit](/Scenarios/STX_RW_1/plots/comp_lenfit__multi-fleet_comparison.png)
+![Length comps NCRMP](/Scenarios/STX_RW_1/plots/comp_lenfit_flt2mkt0.png)
 
-STX_RW_1
+St. Croix Stoplight Parrotfish Review Workshop Model STX_RW_1. (a) Observed and predicted length distributions in centimeters, aggregated across time by fleet; and (b) observed and predicted length distributions in centimeters, by year for the NCRMP survey. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
 :::
 
 ::: {#fig-STX_RW_1-group3 layout-ncol="2"}
+![Length fit](/Scenarios/STX_RW_1/plots/comp_lenfit__multi-fleet_comparison.png)
+
 ![Mean length NCRMP](/Scenarios/STX_RW_1/plots/comp_lenfit_data_weighting_TA1-8_NCRMP.png)
 
-![Recruitment deviations](/Scenarios/STX_RW_1/plots/recdevs1_points.png)
-
-![Unfished ratio](/Scenarios/STX_RW_1/plots/ts9_Fraction_of_unfished_spawning_output_with_95_asymptotic_intervals_intervals.png)
-
-![Fishing Mortality](/Scenarios/STX_RW_1/plots/ts_summaryF.png)
-
-STX_RW_1
+St. Croix Stoplight Parrotfish Review Workshop Model STX_RW_1. (a) pearson residuals, comparing across fleets. Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected); and (b) mean length for the NCRMP survey with 95% confidence intervals based on current sample sizes.
 :::
 
 ::: {#fig-STX_RW_1-group4 layout-ncol="2"}
+![Recruitment deviations](/Scenarios/STX_RW_1/plots/recdevs2_withbars.png)
+
+![Fishing Mortality](/Scenarios/STX_RW_1/plots/ts_summaryF.png)
+
+St. Croix Stoplight Parrotfish Review Workshop Model STX_RW_1. (a) Recruitment deviations with 95% intervals; and (b) fishing mortality (total biomass killed / total biomass).
+:::
+
+::: {#fig-STX_RW_1-group5 layout-ncol="2"}
+![SPR Phase](/Scenarios/STX_RW_1/plots/SPR4_phase.png)
+
 ![STX_RW_1 Parameters](/Scenarios/STX_RW_1/plots/parameter_distributions.png)
 
-![STX_RW_1 Length comps NCRMP](/Scenarios/STX_RW_1/plots/comp_lenfit_flt2mkt0.png)
+St. Croix Stoplight Parrotfish Review Workshop Model STX_RW_1. (a) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years. Lines through the final point show 95% intervals based on the asymptotic uncertainty for each dimension.; and (b) parameter distribution plots.
+:::
 
-![Index NCRMP](/Scenarios/STX_RW_1/plots/index2_cpuefit_NCRMP.png)
+::: {#fig-STX_RW_1-group6 layout-ncol="2"}
+![SPR](/Scenarios/STX_RW_1/plots/SPR1_series.png)
 
-STX_RW_1
+![SPR Ratio](/Scenarios/STX_RW_1/plots/SPR3_ratiointerval.png)
+
+![Unfished ratio](/Scenarios/STX_RW_1/plots/ts9_Fraction_of_unfished_spawning_output_with_95_asymptotic_intervals_intervals.png)
+
+St. Croix Stoplight Parrotfish Review Workshop Model STX_RW_1. (a) Time series of 1-SPR. Horizontal line is at 1 - SPR target: 1 - 0.4 = 0.6; (b) time series of SPR ratio: 1-SPR; and (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass) with ~95% asymptotic intervals.
 :::

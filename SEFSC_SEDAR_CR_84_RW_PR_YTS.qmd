@@ -85,3 +85,25 @@ These analyses are exploratory and were conducted under panel direction during t
 {{< pagebreak >}}
 
 # Figures {#sec-figures}
+
+{{< include content/PR_RW_1.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include content/PR_RW_2.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include content/PR_RW_3.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include content/PR_RW_4.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include content/PR_STTJ_RW_1.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include content/PR_STTJ_RW_2.qmd >}}

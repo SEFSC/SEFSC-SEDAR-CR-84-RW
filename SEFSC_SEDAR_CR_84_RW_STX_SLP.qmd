@@ -75,3 +75,9 @@ These analyses are exploratory and were conducted under panel direction during t
 {{< pagebreak >}}
 
 # Figures {#sec-figures}
+
+{{< include content/STX_RW_1.qmd >}}
+
+{{< pagebreak >}}
+
+{{< include content/STX_RW_2.qmd >}}

@@ -1,6 +1,5 @@
-# PR_STTJ_RW_1 {.unnumbered}
 
-::: {#PR_STTJ_RW_1-fig-group1 layout-ncol="2"}
+::: {#fig-PR_STTJ_RW_1-group1 layout-ncol="2"}
 
 ![Size at age](/Scenarios/PR_STTJ_RW_1/plots/bio1_sizeatage.png)
 

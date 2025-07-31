@@ -1,6 +1,6 @@
-# STTJ_RW_3 {.unnumbered}
 
-::: {#STTJ_RW_3-fig-group1 layout-ncol="2"}
+
+::: {#fig-STTJ_RW_3-group2 layout-ncol="2"}
 ![Size at age](/Scenarios/STTJ_RW_3/plots/bio1_sizeatage.png)
 
 ![Observed and expected landings](/Scenarios/STTJ_RW_3/plots/catch3_observed_and_expected_landings_(if_different).png)

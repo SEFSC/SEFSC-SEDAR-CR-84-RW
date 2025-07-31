@@ -1,6 +1,6 @@
-# PR_RW_4 {.unnumbered}
 
-::: {#PR_RW_4-fig-group1 layout-ncol="2"}
+
+::: {#fig-PR_RW_4-group1 layout-ncol="2"}
 ![Size at age](/Scenarios/PR_RW_4/plots/bio1_sizeatage.png)
 
 ![Observed and expected landings](/Scenarios/PR_RW_4/plots/catch3_observed_and_expected_landings_(if_different).png)
@@ -20,6 +20,8 @@ PR_RW_4
 ![Lenth fit aggregated across time](/Scenarios/PR_RW_4/plots/comp_lenfit__aggregated_across_time.png)
 
 ![Length fit](/Scenarios/PR_RW_4/plots/comp_lenfit__multi-fleet_comparison.png)
+
+PR_RW_3
 :::
 
 ::: {#fig-PR_RW_4-group3 layout-ncol="2"}
@@ -30,6 +32,8 @@ PR_RW_4
 ![Mean length NCRMP La Parguera](/Scenarios/PR_RW_4/plots/comp_sizefit_data_weighting_TA1-8_NCRMP_LAP.png)
 
 ![Fishing Mortality](/Scenarios/PR_RW_4/plots/ts_summaryF.png)
+
+PR_RW_3
 :::
 
 ::: {#fig-PR_RW_4-group4 layout-ncol="2"}

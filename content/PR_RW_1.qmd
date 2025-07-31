@@ -1,6 +1,6 @@
-# PR_RW_1 {.unnumbered}
 
-::: {#PR_RW_1-fig-group1 layout-ncol="2"}
+
+::: {#fig-PR_RW_1-group1 layout-ncol="2"}
 ![Size at age](/Scenarios/PR_RW_1/plots/bio1_sizeatage.png)
 
 ![Observed and expected landings](/Scenarios/PR_RW_1/plots/catch3_observed_and_expected_landings_(if_different).png)
