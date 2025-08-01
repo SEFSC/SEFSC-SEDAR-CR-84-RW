@@ -33,17 +33,17 @@ editor: visual
 
 This addendum provides supplementary analyses developed in direct response to requests made by the SEDAR 84 Review Workshop Panel. The model runs and plots presented here build on the configurations documented in the SEDAR 84 Assessment Process Report for US Caribbean Yellowtail Snapper in Puerto Rico.
 
-The additional model runs conducted during the Review Workshop are intended to document exploratory work that may inform next steps toward refining the assessment framework for consideration by the Caribbean Fishery Management Council’s Science and Statistical Committee.
+The additional model runs conducted during the Review Workshop are intended to document exploratory work that may inform next steps toward refining the assessment framework for consideration by the Caribbean Fishery Management Council’s Science and Statistical Committee (SSC).
 
-Only the model runs reviewed by the panel during the Review Workshop are included in this addendum. While additional exploratory analyses could be pursued (e.g., steepness values informed by FishBase rather than assuming steepness near 1), these were not examined during the workshop. Future work will integrate further panel recommendations and additional sensitivity analyses once the Review Workshop Report is finalized.
+Only the model runs reviewed by the panel during the Review Workshop are included in this addendum. While additional exploratory analyses could be pursued (e.g., steepness values informed by FishBase rather than assuming steepness near 1), these were not examined during the workshop. Future work to be considered by the SSC will integrate further panel recommendations and additional sensitivity analyses once the Review Workshop Report is finalized.
 
 # Key Considerations
 
--   All model runs included here were developed under the direction of the Review Workshop Panel to explore data use, model behavior.
+-   All model runs included here were developed under the direction of the Review Workshop Panel to explore data use and model behavior.
 
 -   The models remain preliminary and sensitive to consequential assumptions (e.g., initial equilibrium catch, recruitment steepness, selectivity). Further work is required to address these uncertainties and develop models more robust for informing management advice.
 
--   At the panel’s recommendation, an exploratory run was developed combining data from Puerto Rico and St. Thomas/St. John. This deviates from the Data Workshop guidance to analyze island platforms separately and to exclude pre-island-specific survey data. The panel suggested this deviation in an attempt to retain additional information to better fit length compositions and stabilize model initialization.
+-   At the panel’s recommendation, an exploratory run was developed combining data from Puerto Rico and St. Thomas/St. John. This model run deviates from the Data Workshop guidance to analyze island platforms separately and to exclude spatially restricted survey data from La Parguera, Puerto Rico and St. John prior to when the surveys were conducted island-wide. The panel suggested this model configuration in an attempt to retain additional information to better fit length compositions and stabilize model initialization. Those results are only included in the Puerto Rico addendum.
 
 -   These models do not represent final scientific advice. They are intermediate steps in an iterative review process leading to future model development, SSC review, and eventual management consideration.
 
@@ -53,11 +53,23 @@ Only the model runs reviewed by the panel during the Review Workshop are include
 
 Included is a compilation of the stock assessment model runs developed during the SEDAR 84 Review Workshop held from July 15 to July 18, 2025 in Fort Lauderdale, Florida.
 
-Building on the models documented in the assessment process report for Yellowtail Snapper in Puerto Rico, the review workshop introduced several refinements and exploratory runs. The initial review workshop model used a single-sex configuration, applied the Stock Synthesis F method option 2 and corrected standard error units for the NCRMP survey index of abundance. The second model estimated two growth parameters (the growth coefficient K and the mean length at maximum age).
+Building on the models documented in the assessment process report for Yellowtail Snapper in Puerto Rico, the review workshop recommended several refinements and exploratory model runs. The initial review workshop model adopted a single-sex configuration, applied the Stock Synthesis fishing mortality method option 2 (F Method = 2), and corrected the standard error units for the NCRMP survey index of abundance. This represented a deliberate improvement over the setup reported in the assessment process report, which had implemented F Method = 3, referred to as the hybrid method. The hybrid method sequentially applies Pope’s and Baranov catch equations to tune fishing mortality as a factor based on retained catch for each fleet. As noted in the SS3 manual, this approach generally performs best when catches are known with high precision (standard error \< 0.05) and when the overall fishing mortality is not substantially higher than natural mortality.
 
-A third model for Puerto Rico Yellowtail Snapper added a survey corresponding to the spatially restricted years of the NCRMP and a combination of splines and time blocks to model selectivity and capture shifts in the size composition of the commercial hand line fleet. To test for model convergence, the fourth model built on this structure with estimated growth parameters (the growth coefficient K and the length at maximum age).
+In contrast, F Method = 2 treats fishing mortality as a parameter, which is often more appropriate in cases where fishing mortality is relatively high or where fleets have both retained and discarded catch. Changing from method 3 to method 2 was therefore an important refinement, as was correcting the index standard error units and simplifying the model to a single-sex structure, given that no sex-specific data inputs were available for this assessment.
 
-Finally, two models were developed with combined data from Puerto Rico and St. Thomas and St. John, USVI. These included two fleets and five surveys, with spatially restricted NCRMP surveys incorporated separately from the island-wide surveys recommended by the data workshop and included in the assessment report model runs. To test for model convergence, the second model built on this structure with fixed selectivity and steepness and estimated length at maximum age.
+These recommendations were motivated by the observed behavior in the initial models where catch data were fit almost exactly, largely due to the combination of the hybrid method and low uncertainty on the catch inputs. Switching to F Method = 2 provided the model with greater flexibility to balance the fit between fishery-dependent catch data and fishery-independent survey indices. This was particularly important because the NCRMP survey is a statistically designed survey providing independent information on abundance trends.
+
+A second exploratory model run further increased the standard error on the catch and allowed estimation of two growth parameters (the growth coefficient, K, and the mean length at maximum age). This recommended model run aimed to test whether relaxing constraints on catch and growth assumptions would allow the model to better align with the survey data.
+
+However, these two exploratory models produced notably different results, highlighting a significant trade off. This underscores an important area for further investigation. Additional work is required to evaluate model weightings, data input uncertainties, and configuration choices to ensure an appropriate balance in how information from different sources informs the assessment outcomes.
+
+A third model, recommended for the Puerto Rico Yellowtail Snapper assessment, incorporated a spatially restricted NCRMP survey covering only the years when data from La Parguera were available. This configuration also introduced a flexible selectivity pattern, modeled using splines with time blocks, to better capture observed shifts in the size composition of the commercial fleet over time. Splines are polynomial functions that allow selectivity curves to change flexibly across sizes or time periods, avoiding rigid assumptions about fleet behavior.
+
+The intention of this approach was to explicitly represent changes in fishing selectivity, interpreting the size composition of landings as a direct consequence of fishers’ selection patterns, rather than as a signal of underlying population structure or availability trends. In other words, this model sought to decouple population dynamics from the commercial fishery data, while still ensuring that the Trip Interview Program (TIP) data informed the size-specific removals.
+
+A fourth exploratory model was recommended which retained the spatially restricted La Parguera survey and spline selectivity setup but also estimated growth parameters—the growth coefficient (K) and the mean length at maximum age—to further explore whether relaxing fixed growth assumptions would improve convergence and overall model fit.
+
+Finally, two panel recommended models were developed with combined data from Puerto Rico and St. Thomas and St. John, USVI. These included two fleets and five surveys. This included two spatially restricted NCRMP surveys from 2001 to 2011, conducted in La Parguera, PR and in St. John, which were incorporated separately from the island-wide surveys (PR NCRMP, STTJ NCRMP,and STTJ DCRMP) that were recommended by the data workshop and included in the respective assessment process report model runs. To test for model convergence, the second model built on this combined island structure with fixed selectivity and steepness and estimated length at maximum age.
 
 @tbl-rw-dev summarizes the models described above and figures are provided in @sec-figures.
 
@@ -72,7 +84,7 @@ These analyses are exploratory and were conducted under panel direction during t
 # Tables
 
 | Model | Description |
-|:---------------------|-------------------------------------------------|
+|:----------------------|-------------------------------------------------|
 | PR_RW_1 | Single Sex, F method 2, Catch SE = 0.3, and Corrected Survey SE |
 | PR_RW_2 | PR_RW_1 + Catch SE = 2 and Estimated Growth |
 | PR_RW_3 | PR_RW_1 + La Parguera Survey and Selectivity Spline; **does not converge** |

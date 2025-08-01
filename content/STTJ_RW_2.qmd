@@ -1,27 +1,23 @@
-
-
 ::: {#fig-STTJ_RW_2-group1 layout-ncol="2"}
 ![Size at age](/Scenarios/STTJ_RW_2/plots/bio1_sizeatage.png)
 
 ![Observed and expected landings](/Scenarios/STTJ_RW_2/plots/catch3_observed_and_expected_landings_(if_different).png)
 
-![Selectivity](/Scenarios/STTJ_RW_2/plots/sel01_multiple_fleets_length1.png)
+![Index NCRMP](/Scenarios/STTJ_RW_2/plots/index2_cpuefit_NCRMP.png)
 
-![SPR](/Scenarios/STTJ_RW_2/plots/SPR1_series.png)
+![Index DCRMP](/Scenarios/STTJ_RW_2/plots/index2_cpuefit_DCRMP.png)
 
-STTJ_RW_2
+St. Thomas and St. John Yellowtail Snapper Review Workshop Model STTJ_RW_2. (a) Length at age in the beginning of the year (or season) in the final year of the model. Shaded area indicates 95% distribution of length at age around estimated growth curve; (b) observed and expected landings; (c) Fit to index data for the NCRMP survey.; and (d) Fit to index data for the DCRMP survey.
 :::
 
 ::: {#fig-STTJ_RW_2-group2 layout-ncol="2"}
-![SPR Phase](/Scenarios/STTJ_RW_2/plots/SPR4_phase.png)
+![Length fit aggregated across time](/Scenarios/STTJ_RW_2/plots/comp_lenfit__aggregated_across_time.png)
 
-![SPR Ratio](/Scenarios/STTJ_RW_2/plots/SPR3_ratiointerval.png)
+![Length comps NCRMP](/Scenarios/STTJ_RW_2/plots/comp_lenfit_flt2mkt0.png)
 
-![Lenth fit aggregated across time](/Scenarios/STTJ_RW_2/plots/comp_lenfit__aggregated_across_time.png)
+![Length comps DCRMP](/Scenarios/STTJ_RW_2/plots/comp_lenfit_flt3mkt0.png)
 
-![Length fit](/Scenarios/STTJ_RW_2/plots/comp_lenfit__multi-fleet_comparison.png)
-
-STTJ_RW_2
+St. Thomas and St. John Yellowtail Snapper Review Workshop Model STTJ_RW_2. (a) Observed and predicted length distributions in centimeters, aggregated across time by fleet; (b) observed and predicted length distributions in centimeters, by year for the NCRMP survey; and (c) observed and predicted length distributions in centimeters, by year for the DCRMP survey. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
 :::
 
 ::: {#fig-STTJ_RW_2-group3 layout-ncol="2"}
@@ -29,39 +25,41 @@ STTJ_RW_2
 
 ![Mean length DCRMP](/Scenarios/STTJ_RW_2/plots/comp_lenfit_data_weighting_TA1-8_DCRMP.png)
 
-STTJ_RW_2
+St. Thomas and St. John Yellowtail Snapper Review Workshop Model STTJ_RW_2. Mean length for with 95% confidence intervals for (a) the NCRMP survey and for (b) the DCRMP.
+:::
+
+::: {#fig-STTJ_RW_2-group3 layout-ncol="2"}
+![Selectivity](/Scenarios/STTJ_RW_2/plots/sel01_multiple_fleets_length1.png)
+
+![Length fit](/Scenarios/STTJ_RW_2/plots/comp_lenfit__multi-fleet_comparison.png)
+
+St. Thomas and St. John Yellowtail Snapper Review Workshop Model STTJ_RW_2. (a) selectivity at length by fleet; and (b) Pearson residuals, comparing across fleets. Closed bubbles are positive residuals (observed \> expected) and open bubbles are negative residuals (observed \< expected).
 :::
 
 ::: {#fig-STTJ_RW_2-group4 layout-ncol="2"}
-![Recruitment deviations](/Scenarios/STTJ_RW_2/plots/recdevs1_points.png)
+![Recruitment deviations](/Scenarios/STTJ_RW_2/plots/recdevs2_withbars.png)
 
 ![Fishing Mortality](/Scenarios/STTJ_RW_2/plots/ts_summaryF.png)
 
-![Unfished ratio](/Scenarios/STTJ_RW_2/plots/ts9_Fraction_of_unfished_spawning_biomass_with_95_asymptotic_intervals_intervals.png)
-
-STTJ_RW_2
+St. Thomas and St. John Yellowtail Snapper Review Workshop Model STTJ_RW_2 (a) Recruitment deviations with 95% intervals; and (b) fishing mortality (total biomass killed / total biomass).
 :::
 
 ::: {#fig-STTJ_RW_2-group5 layout-ncol="2"}
-![Parameters pg. 1](/Scenarios/STTJ_RW_2/plots/parameter_distributions_page1.png)
+![Parameters pg. 1 of 2](/Scenarios/STTJ_RW_2/plots/parameter_distributions_page1.png)
 
-![Parameters pg. 2](/Scenarios/STTJ_RW_2/plots/parameter_distributions_page2.png)
+![Parameters pg. 2 of 2](/Scenarios/STTJ_RW_2/plots/parameter_distributions_page2.png)
 
-STTJ_RW_2
+Parameter distribution plots for the St. Thomas and St. John Yellowtail Snapper Review Workshop Model STTJ_RW_2.
 :::
 
 ::: {#fig-STTJ_RW_2-group6 layout-ncol="2"}
-![Length comps NCRMP](/Scenarios/STTJ_RW_2/plots/comp_lenfit_flt2mkt0.png)
+![SPR](/Scenarios/STTJ_RW_2/plots/SPR1_series.png)
 
-![Length comps DCRMP](/Scenarios/STTJ_RW_2/plots/comp_lenfit_flt3mkt0.png)
+![SPR Ratio](/Scenarios/STTJ_RW_2/plots/SPR3_ratiointerval.png)
 
-STTJ_RW_2
-:::
+![Unfished ratio](/Scenarios/STTJ_RW_2/plots/ts9_Fraction_of_unfished_spawning_biomass_with_95_asymptotic_intervals_intervals.png)
 
-::: {#fig-STTJ_RW_2-group7 layout-ncol="2"}
-![Index NCRMP](/Scenarios/STTJ_RW_2/plots/index2_cpuefit_NCRMP.png)
+![SPR Phase](/Scenarios/STTJ_RW_2/plots/SPR4_phase.png)
 
-![Index DCRMP](/Scenarios/STTJ_RW_2/plots/index2_cpuefit_DCRMP.png)
-
-STTJ_RW_2
+St. Thomas and St. John Yellowtail Snapper Review Workshop Model STTJ_RW_2. (a) Time series of SPR. Horizontal reference line is at SPR target: 0.4, (b) time series of 1-SPR. Horizontal reference lines 1 and at 1 - SPR target: 1 - 0.4 = 0.6; (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass) with \~95% asymptotic intervals. Horizontal reference lines at 1 and SPR target: 0.4; and (d) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years. Lines through the final point show 95% intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95% region which accounts for the estimated correlation between the two quantities: -0.569.
 :::

@@ -1,109 +1,96 @@
-
-
 ::: {#fig-PR_STTJ_RW_2-group1 layout-ncol="2"}
-
 ![Size at age](/Scenarios/PR_STTJ_RW_2/plots/bio1_sizeatage.png)
 
 ![Observed and expected landings](/Scenarios/PR_STTJ_RW_2/plots/catch3_observed_and_expected_landings_(if_different).png)
 
 ![Selectivity](/Scenarios/PR_STTJ_RW_2/plots/sel01_multiple_fleets_length1.png)
 
-![SPR](/Scenarios/PR_STTJ_RW_2/plots/SPR1_series.png)
-
-PR_STTJ_RW_2
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. (a) Length at age in the beginning of the year (or season) in the final year of the model. Shaded area indicates 95% distribution of length at age around estimated growth curve; (b) observed and expected landings; and (c) selectivity at length by fleet.
 :::
 
 ::: {#fig-PR_STTJ_RW_2-group2 layout-ncol="2"}
+![Index PR NCRMP](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_NCRMP_PR.png)
 
-![SPR Phase](/Scenarios/PR_STTJ_RW_2/plots/SPR4_phase.png)
+![Index STTJ NCRMP](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_NCRMP_STTSTJ.png)
 
-![SPR Ratio](/Scenarios/PR_STTJ_RW_2/plots/SPR3_ratiointerval.png)
+![Index STTJ DCRMP](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_DCRMP_STTSTJ.png)
 
-![Recruitment deviations](/Scenarios/PR_STTJ_RW_2/plots/recdevs1_points.png)
-
-![Fishing Mortality](/Scenarios/PR_STTJ_RW_2/plots/ts_summaryF.png)
-
-PR_STTJ_RW_2
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Fit to index data for the (a) Puerto Rico NCRMP survey, (b) St. Thomas and St. John NCRMP survey, and (c) St. Thomas and St. John DCRMP survey.  
 :::
 
 ::: {#fig-PR_STTJ_RW_2-group3 layout-ncol="2"}
+![Index PR La Parguera](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_NCRMP_PR_LAP.png)
 
+![Index STJ](/Scenarios/PR_STTJ_RW_2/plots/index5_logcpuefit_NCRMP_STT.png)
 
-![Lenth fit aggregated across time 1](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit__aggregated_across_time.png)
-
-![Lenth fit aggregated across time 2](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1__aggregated_across_time.png)
-
-![Lenth fit aggregated across time 3](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2__aggregated_across_time.png)
-
-PR_STTJ_RW_2
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Fit to index data for the (a) Puerto Rico La Parguera survey, and (b) St. John survey.  
 :::
 
 ::: {#fig-PR_STTJ_RW_2-group4 layout-ncol="2"}
+![Length fit aggregated across time 1 of 3](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit__aggregated_across_time.png)
 
+![Length fit aggregated across time 2 of 3](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1__aggregated_across_time.png)
+
+![Length fit aggregated across time 3 of 3](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2__aggregated_across_time.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. (a) Observed and predicted length distributions in centimeters, aggregated across time by fleet. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. 
+:::
+
+::: {#fig-PR_STTJ_RW_2-group5 layout-ncol="2"}
 ![Length fit pg. 1](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit__page1_multi-fleet_comparison.png)
 
 ![Length fit pg. 2](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit__page2_multi-fleet_comparison.png)
 
-![Parameters pg. 1](/Scenarios/PR_STTJ_RW_2/plots/parameter_distributions_page1.png)
-
-![Unfished ratio](/Scenarios/PR_STTJ_RW_2/plots/ts9_Fraction_of_unfished_spawning_output.png)
-
-PR_STTJ_RW_2
-:::
-
-
-::: {#fig-PR_STTJ_RW_2-group5 layout-ncol="2"}
-
-![Length comps PR Commercial pg. 1](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page1.png)
-
-![Length comps PR Commercial pg. 2](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page2.png)
-
-![Length comps PR Commercial pg. 3](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page3.png)
-
-![Length comps PR Commercial pg. 4](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page4.png)
-
-PR_STTJ_RW_2
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Pearson residuals, comparing across fleets. Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).
 :::
 
 ::: {#fig-PR_STTJ_RW_2-group6 layout-ncol="2"}
+![Length comps PR Commercial pg. 1 of 5](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page1.png)
 
-![Length comps PR Commercial pg. 5](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page5.png)
+![Length comps PR Commercial pg. 2 of 5](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page2.png)
 
-![Length comps STTJ Commercial pg. 1](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt2mkt0_page1.png)
+![Length comps PR Commercial pg. 3 of 5](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page3.png)
 
-![Length comps STTJ Commercial pg. 2](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt2mkt0_page2.png)
+![Length comps PR Commercial pg. 4 of 5](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page4.png)
 
-![Length comps STTJ Commercial pg. 3](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt2mkt0_page3.png)
-
-PR_STTJ_RW_2
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Observed and predicted length distributions in centimeters, by year for the Puerto Rico commercial fleet.
 :::
 
 ::: {#fig-PR_STTJ_RW_2-group7 layout-ncol="2"}
+![Length comps PR Commercial pg. 5  of 5](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt1mkt0_page5.png)
 
+![Length comps STTJ Commercial pg. 1 of 3](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt2mkt0_page1.png)
+
+![Length comps STTJ Commercial pg. 2 of 3](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt2mkt0_page2.png)
+
+![Length comps STTJ Commercial pg. 3 of 3](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt2mkt0_page3.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Observed and predicted length distributions in centimeters, by year for (a) the Puerto Rico commercial fleet (continued); and (b-d) the St. Thomas and St. John Commercial Fleet. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
+:::
+
+::: {#fig-PR_STTJ_RW_2-group8 layout-ncol="2"}
 ![Length comps PR NCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt3mkt0.png)
 
 ![Length comps STTJ NCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt5mkt0.png)
 
 ![Length comps STTJ DCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_flt7mkt0.png)
 
-PR_STTJ_RW_2
-:::
-
-
-::: {#fig-PR_STTJ_RW_2-group8 layout-ncol="2"}
-
-![Length comps PR La Parguera NCRMP pg. 1](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1_flt4mkt0_page1.png)
-
-![Length comps PR La Parguera NCRMP pg. 2](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1_flt4mkt0_page2.png)
-
-![Mean length STT NCRMP pg. 1](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2_flt6mkt0_page1.png)
-
-![Mean length STT NCRMP pg. 2](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2_flt6mkt0_page2.png)
-
-PR_STTJ_RW_2
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Observed and predicted length distributions in centimeters, by year for (a) the Puerto Rico NCRMP survey; (b) the St. Thomas and St. John NCRMP survey; and (c) the St. Thomas and St. John DCRMP survey. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
 :::
 
 ::: {#fig-PR_STTJ_RW_2-group9 layout-ncol="2"}
+![Length comps PR La Parguera pg. 1](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1_flt4mkt0_page1.png)
+
+![Length comps PR La Parguera pg. 2](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1_flt4mkt0_page2.png)
+
+![Length comps STJ pg. 1](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2_flt6mkt0_page1.png)
+
+![Length comps STJ pg. 2](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2_flt6mkt0_page2.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Observed and predicted length distributions in centimeters, by year for (a-b) the Puerto Rico La Parguera survey; and (c-d) St. John survey. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
+:::
+
+::: {#fig-PR_STTJ_RW_2-group10 layout-ncol="2"}
 ![Mean length PR Commercial](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_data_weighting_TA1-8_Commercial_PR.png)
 
 ![Mean length STTJ Commercial](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_data_weighting_TA1-8_Commercial_STTSTJ.png)
@@ -112,29 +99,53 @@ PR_STTJ_RW_2
 
 ![Mean length STTJ NCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_data_weighting_TA1-8_NCRMP_STTSTJ.png)
 
-PR_STTJ_RW_2
-:::
-
-::: {#fig-PR_STTJ_RW_2-group10 layout-ncol="2"}
-![Mean length STTJ DCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_data_weighting_TA1-8_DCRMP_STTSTJ.png)
-
-![Mean length PR La Parguera NCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1_data_weighting_TA1-8_NCRMP_PR_LAP.png)
-
-![Mean length STT NCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2_data_weighting_TA1-8_NCRMP_STT.png)
-
-PR_STTJ_RW_2
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Mean length for with 95% confidence intervals for (a) the Puerto Rico commercial fleet, (b) the St. Thomas and St. John commercial fleet, (c) the Puerto Rico NCRMP survey, and (d) the St. Thomas and St. John NCRMP survey.
 :::
 
 ::: {#fig-PR_STTJ_RW_2-group11 layout-ncol="2"}
-![Index PR NCRMP](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_NCRMP_PR.png)
+![Mean length STTJ DCRMP](/Scenarios/PR_STTJ_RW_2/plots/comp_lenfit_data_weighting_TA1-8_DCRMP_STTSTJ.png)
 
-![Index PR La Parguera NCRMP](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_NCRMP_PR_LAP.png)
+![Mean length PR La Parguera](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method1_data_weighting_TA1-8_NCRMP_PR_LAP.png)
 
-![Index STTJ NCRMP](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_NCRMP_STTSTJ.png)
+![Mean length STJ](/Scenarios/PR_STTJ_RW_2/plots/comp_sizefit_method2_data_weighting_TA1-8_NCRMP_STT.png)
 
-![Index STTJ DCRMP](/Scenarios/PR_STTJ_RW_2/plots/index2_cpuefit_DCRMP_STTSTJ.png)
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. Mean length for with 95% confidence intervals for (a) the Saint Thomas and St. John DCRMP survey, (b) the Puerto Rico La Parguera survey, and (c) the St. John survey.
+:::
 
-![Index STT NCRMP](/Scenarios/PR_STTJ_RW_2/plots/index5_logcpuefit_NCRMP_STT.png)
+::: {#fig-PR_STTJ_RW_2-group12 layout-ncol="2"}
+![Recruitment deviations](/Scenarios/PR_STTJ_RW_2/plots/recdevs2_withbars.png)
 
-PR_STTJ_RW_2
+![Fishing Mortality](/Scenarios/PR_STTJ_RW_2/plots/ts_summaryF.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. (a) Recruitment deviations with 95% intervals; and (b) fishing mortality (total biomass killed / total biomass).
+:::
+
+::: {#fig-PR_STTJ_RW_2-group13 layout-ncol="2"}
+![Parameters pg. 1 of 5](/Scenarios/PR_STTJ_RW_2/plots/parameter_distributions_page1.png)
+
+![Parameters pg. 2 of 5](/Scenarios/PR_STTJ_RW_2/plots/parameter_distributions_page2.png)
+
+Parameter distribution plots for the Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2.
+:::
+
+::: {#fig-PR_STTJ_RW_2-group14 layout-ncol="2"}
+![Parameters pg. 3 of 5](/Scenarios/PR_STTJ_RW_2/plots/parameter_distributions_page3.png)
+
+![Parameters pg. 4 of 5](/Scenarios/PR_STTJ_RW_2/plots/parameter_distributions_page4.png)
+
+![Parameters pg. 5 of 5](/Scenarios/PR_STTJ_RW_2/plots/parameter_distributions_page5.png)
+
+Parameter distribution plots for the Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2 (continued).
+:::
+
+::: {#fig-PR_STTJ_RW_2-group15 layout-ncol="2"}
+![SPR](/Scenarios/PR_STTJ_RW_2/plots/SPR1_series.png)
+
+![SPR Ratio](/Scenarios/PR_STTJ_RW_2/plots/SPR3_ratiointerval.png)
+
+![Unfished ratio](/Scenarios/PR_STTJ_RW_2/plots/ts9_Fraction_of_unfished_spawning_output.png)
+
+![SPR Phase](/Scenarios/PR_STTJ_RW_2/plots/SPR4_phase.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_2. (a) Time series of SPR. Horizontal reference line is at SPR target: 0.4; (b) time series of 1-SPR. Horizontal reference lines 1 and at 1 - SPR target: 1 - 0.4 = 0.6; (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass) with ~95% asymptotic intervals. Horizontal reference lines at 1 and SPR target: 0.4; and (d) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years. Lines through the final point show 95% intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95% region which accounts for the estimated correlation between the two quantities: -0.416.
 :::

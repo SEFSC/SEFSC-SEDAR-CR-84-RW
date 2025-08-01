@@ -1,5 +1,3 @@
-
-
 ::: {#fig-PR_RW_1-group1 layout-ncol="2"}
 ![Size at age](/Scenarios/PR_RW_1/plots/bio1_sizeatage.png)
 
@@ -7,63 +5,71 @@
 
 ![Selectivity](/Scenarios/PR_RW_1/plots/sel01_multiple_fleets_length1.png)
 
-![SPR](/Scenarios/PR_RW_1/plots/SPR1_series.png)
+![Index NCRMP](/Scenarios/PR_RW_1/plots/index2_cpuefit_NCRMP.png)
 
-PR_RW_1
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1. (a) Length at age in the beginning of the year (or season) in the final year of the model. Shaded area indicates 95% distribution of length at age around estimated growth curve; (b) observed and expected landings; (c) selectivity at length by fleet; and (d) fit to index data for the NCRMP survey.
 :::
 
 ::: {#fig-PR_RW_1-group2 layout-ncol="2"}
-![SPR Phase](/Scenarios/PR_RW_1/plots/SPR4_phase.png)
-
-![SPR Ratio](/Scenarios/PR_RW_1/plots/SPR3_ratiointerval.png)
-
-![Lenth fit aggregated across time](/Scenarios/PR_RW_1/plots/comp_lenfit__aggregated_across_time.png)
+![Length fit aggregated across time](/Scenarios/PR_RW_1/plots/comp_lenfit__aggregated_across_time.png)
 
 ![Length fit](/Scenarios/PR_RW_1/plots/comp_lenfit__multi-fleet_comparison.png)
 
-PR_RW_1
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1. (a) Observed and predicted length distributions in centimeters, aggregated across time by fleet. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method; and (b) Pearson residuals, comparing across fleets. Closed bubbles are positive residuals (observed \> expected) and open bubbles are negative residuals (observed \< expected).
 :::
 
 ::: {#fig-PR_RW_1-group3 layout-ncol="2"}
+![Length comps NCRMP](/Scenarios/PR_RW_1/plots/comp_lenfit_flt2mkt0.png)
+
+![Length comps Commercial pg. 1 of 5](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page1.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1. (a) Observed and predicted length distributions in centimeters, by year for the NCRMP survey; and (b) observed and predicted length distributions in centimeters, by year for the commercial fleet. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
+:::
+
+::: {#fig-PR_RW_1-group4 layout-ncol="2"}
+![Length comps Commercial pg. 2 of 5](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page2.png)
+
+![Length comps Commercial pg. 3 of 5](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page3.png)
+
+![Length comps Commercial pg. 4 of 5](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page4.png)
+
+![Length comps Commercial pg. 5 of 5](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page5.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1. Observed and predicted length distributions in centimeters, by year for the commercial fleet (continued). 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
+:::
+
+::: {#fig-PR_RW_1-group5 layout-ncol="2"}
 ![Mean length NCRMP](/Scenarios/PR_RW_1/plots/comp_lenfit_data_weighting_TA1-8_NCRMP.png)
 
 ![Mean length Commercial](/Scenarios/PR_RW_1/plots/comp_lenfit_data_weighting_TA1-8_Commercial.png)
 
-![Recruitment deviations](/Scenarios/PR_RW_1/plots/recdevs1_points.png)
-
-![Fishing Mortality](/Scenarios/PR_RW_1/plots/ts_summaryF.png)
-
-PR_RW_1
-:::
-
-::: {#fig-PR_RW_1-group4 layout-ncol="2"}
-![Unfished ratio](/Scenarios/PR_RW_1/plots/ts9_Fraction_of_unfished_spawning_output.png)
-
-![Parameters pg. 1](/Scenarios/PR_RW_1/plots/parameter_distributions_page1.png)
-
-![Parameters pg. 2](/Scenarios/PR_RW_1/plots/parameter_distributions_page2.png)
-
-![Length comps NCRMP](/Scenarios/PR_RW_1/plots/comp_lenfit_flt2mkt0.png)
-
-PR_RW_1
-:::
-
-::: {#fig-PR_RW_1-group5 layout-ncol="2"}
-![Length comps Commercial pg. 1](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page1.png)
-
-![Length comps Commercial pg. 2](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page2.png)
-
-![Length comps Commercial pg. 3](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page3.png)
-
-![Length comps Commercial pg. 4](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page4.png)
-
-PR_RW_1
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1. Mean length for with 95% confidence intervals for (a) the NCRMP survey and for (b) the commercial fleet.
 :::
 
 ::: {#fig-PR_RW_1-group6 layout-ncol="2"}
-![Length comps Commercial pg. 5](/Scenarios/PR_RW_1/plots/comp_lenfit_flt1mkt0_page5.png)
+![Recruitment deviations](/Scenarios/PR_RW_1/plots/recdevs2_withbars.png)
 
-![Index NCRMP](/Scenarios/PR_RW_1/plots/index2_cpuefit_NCRMP.png)
+![Fishing Mortality](/Scenarios/PR_RW_1/plots/ts_summaryF.png)
 
-PR_RW_1
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1. (a) Recruitment deviations with 95% intervals; and (b) fishing mortality (total biomass killed / total biomass).
+:::
+
+::: {#fig-PR_RW_1-group7 layout-ncol="2"}
+![Parameters pg. 1 of 2](/Scenarios/PR_RW_1/plots/parameter_distributions_page1.png)
+
+![Parameters pg. 2 of 2](/Scenarios/PR_RW_1/plots/parameter_distributions_page2.png)
+
+Parameter distribution plots for the Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1.
+:::
+
+::: {#fig-PR_RW_1-group8 layout-ncol="2"}
+![SPR](/Scenarios/PR_RW_1/plots/SPR1_series.png)
+
+![SPR Ratio](/Scenarios/PR_RW_1/plots/SPR3_ratiointerval.png)
+
+![Unfished ratio](/Scenarios/PR_RW_1/plots/ts9_Fraction_of_unfished_spawning_output.png)
+
+![SPR Phase](/Scenarios/PR_RW_1/plots/SPR4_phase.png)
+
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_1. (a) Time series of SPR. Horizontal reference line is at SPR target: 0.4; (b) time series of 1-SPR. Horizontal reference lines 1 and at 1 - SPR target: 1 - 0.4 = 0.6; (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass) with \~95% asymptotic intervals. Horizontal reference lines at 1 and SPR target: 0.4; and (d) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years. Lines through the final point show 95% intervals based on the asymptotic uncertainty for each dimension. The shaded ellipse is a 95% region which accounts for the estimated correlation between the two quantities: -0.567.
 :::
