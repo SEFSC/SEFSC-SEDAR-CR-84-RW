@@ -1,4 +1,4 @@
-# SEDAR 84 Review Workshop HW {.unnumbered}
+# SEDAR 84 Review Workshop HW
 
 Included is a compilation of the stock assessment model runs developed during the SEDAR 84 Review Workshop held from July 15 to July 18, 2025 in Fort Lauderdale, Florida.
 
@@ -15,7 +15,7 @@ For each model, key Spawning Potential Ratio (SPR) plots are provided with horiz
 {{< pagebreak >}}
 
 | Model | Description |
-|:--------------------|---------------------------------------------------|
+|:-----------------|---------------------------------------------------|
 | STX_RW_1 | Single Sex, F method 2, Catch SE = 0.3, and Corrected Survey SE |
 | STX_RW_2 | STX_RW_1 + Catch SE = 2 and Estimated Growth |
 | STTJ_RW_1 | Single Sex, F method 2, Catch SE = 0.3, and Corrected Survey SE |
@@ -29,3 +29,49 @@ For each model, key Spawning Potential Ratio (SPR) plots are provided with horiz
 | PR_STTJ_RW_2 | PR_STTJ_RW_1 + Estimated Length at Maximum Age and Fixed Selectivity and 0.8 Steepness |
 
 : Summary of Review Workshop SEDAR 84 models. {#tbl-rw-dev}
+
+# STX_RW_1
+
+{{< include content/STX_RW_1.qmd >}}
+
+# STX_RW_2
+
+{{< include content/STX_RW_2.qmd >}}
+
+# STTJ_RW_1
+
+{{< include content/STTJ_RW_1.qmd >}}
+
+# STTJ_RW_2
+
+{{< include content/STTJ_RW_2.qmd >}}
+
+# STTJ_RW_3
+
+{{< include content/STTJ_RW_3.qmd >}}
+
+\clearpage
+
+# PR_RW_1
+
+{{< include content/PR_RW_1.qmd >}}
+
+# PR_RW_2
+
+{{< include content/PR_RW_2.qmd >}}
+
+# PR_RW_3
+
+{{< include content/PR_RW_3.qmd >}}
+
+# PR_RW_4
+
+{{< include content/PR_RW_4.qmd >}}
+
+# PR_STTJ_RW_1
+
+{{< include content/PR_STTJ_RW_1.qmd >}}
+
+# PR_STTJ_RW_2
+
+{{< include content/PR_STTJ_RW_2.qmd >}}
