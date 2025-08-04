@@ -3,6 +3,7 @@ title: "Addendum"
 subtitle: "SEDAR 84 Puerto Rico Yellowtail Snapper"
 format: 
   pdf:
+    default-image-extension: png
     toc: true
     toc-depth: 2
     number-sections: true
@@ -69,7 +70,7 @@ The intention of this approach was to explicitly represent changes in fishing se
 
 A fourth exploratory model was recommended which retained the spatially restricted La Parguera survey and spline selectivity setup but also estimated growth parameters—the growth coefficient (K) and the mean length at maximum age—to further explore whether relaxing fixed growth assumptions would improve convergence and overall model fit.
 
-Finally, two panel recommended models were developed with combined data from Puerto Rico and St. Thomas and St. John, USVI. These included two fleets and five surveys. This included two spatially restricted NCRMP surveys from 2001 to 2011, conducted in La Parguera, PR and in St. John, which were incorporated separately from the island-wide surveys (PR NCRMP, STTJ NCRMP,and STTJ DCRMP) that were recommended by the data workshop and included in the respective assessment process report model runs. To test for model convergence, the second model built on this combined island structure with fixed selectivity and steepness and estimated length at maximum age.
+Finally, two panel recommended models were developed with combined data from Puerto Rico and St. Thomas and St. John, USVI. These included two fleets and five surveys. This included two spatially restricted NCRMP surveys from 2001 to 2011, conducted in La Parguera, PR and in St. John, which were incorporated separately from the island-wide surveys (PR NCRMP, STTJ NCRMP, and STTJ DCRMP) that were recommended by the data workshop and included in the respective assessment process report model runs. To test for model convergence, the second model built on this combined island structure with fixed selectivity and steepness and estimated length at maximum age.
 
 @tbl-rw-dev summarizes the models described above and figures are provided in @sec-figures.
 
@@ -84,7 +85,7 @@ These analyses are exploratory and were conducted under panel direction during t
 # Tables
 
 | Model | Description |
-|:----------------------|-------------------------------------------------|
+|:---|----|
 | PR_RW_1 | Single Sex, F method 2, Catch SE = 0.3, and Corrected Survey SE |
 | PR_RW_2 | PR_RW_1 + Catch SE = 2 and Estimated Growth |
 | PR_RW_3 | PR_RW_1 + La Parguera Survey and Selectivity Spline; **does not converge** |
@@ -116,6 +117,6 @@ These analyses are exploratory and were conducted under panel direction during t
 
 {{< include content/PR_STTJ_RW_1.qmd >}}
 
-{{< pagebreak >}}
+\clearpage
 
 {{< include content/PR_STTJ_RW_2.qmd >}}

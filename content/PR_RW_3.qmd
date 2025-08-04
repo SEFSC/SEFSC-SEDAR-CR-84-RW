@@ -76,5 +76,5 @@ Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_3. (a) Recruitment de
 
 ![SPR Phase](/Scenarios/PR_RW_3/plots/SPR4_phase.png)
 
-Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_3. (a) Time series of SPR. Horizontal reference line is at SPR target: 0.4; (b) time series of 1-SPR. Horizontal reference lines 1 and at 1 - SPR target: 1 - 0.4 = 0.6; (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass). Horizontal reference lines at 1 and SPR target: 0.4; and (d) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years.
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_RW_3. (a) Time series of SPR. Horizontal reference line is at SPR target: 0.4; (b) time series of 1-SPR. Horizontal reference lines 1 and at 1 - SPR target: 1 - 0.4 = 0.6; (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass). Horizontal reference line at SPR target: 0.4; and (d) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years.
 :::

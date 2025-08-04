@@ -15,7 +15,7 @@ Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. (a) Length at
 
 ![Index STTJ DCRMP](/Scenarios/PR_STTJ_RW_1/plots/index2_cpuefit_DCRMP_STTSTJ.png)
 
-Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Fit to index data for the (a) Puerto Rico NCRMP survey, (b) St. Thomas and St. John NCRMP survey, and (c) St. Thomas and St. John DCRMP survey.  
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Fit to index data for the (a) Puerto Rico NCRMP survey, (b) St. Thomas and St. John NCRMP survey, and (c) St. Thomas and St. John DCRMP survey.
 :::
 
 ::: {#fig-PR_STTJ_RW_1-group3 layout-ncol="2"}
@@ -23,7 +23,7 @@ Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Fit to index 
 
 ![Index STJ](/Scenarios/PR_STTJ_RW_1/plots/index5_logcpuefit_NCRMP_STT.png)
 
-Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Fit to index data for the (a) Puerto Rico La Parguera survey, and (b) St. John survey.  
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Fit to index data for the (a) Puerto Rico La Parguera survey, and (b) St. John survey.
 :::
 
 ::: {#fig-PR_STTJ_RW_1-group4 layout-ncol="2"}
@@ -33,7 +33,7 @@ Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Fit to index 
 
 ![Length fit aggregated across time 3 of 3](/Scenarios/PR_STTJ_RW_1/plots/comp_sizefit_method2__aggregated_across_time.png)
 
-Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. (a) Observed and predicted length distributions in centimeters, aggregated across time by fleet. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method. 
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. (a) Observed and predicted length distributions in centimeters, aggregated across time by fleet. 'N adj.' is the input sample size after data-weighting adjustment. N eff. is the calculated effective sample size used in the McAllister-Ianelli tuning method.
 :::
 
 ::: {#fig-PR_STTJ_RW_1-group5 layout-ncol="2"}
@@ -41,7 +41,7 @@ Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. (a) Observed 
 
 ![Length fit pg. 2](/Scenarios/PR_STTJ_RW_1/plots/comp_lenfit__page2_multi-fleet_comparison.png)
 
-Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Pearson residuals, comparing across fleets. Closed bubbles are positive residuals (observed > expected) and open bubbles are negative residuals (observed < expected).
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Pearson residuals, comparing across fleets. Closed bubbles are positive residuals (observed \> expected) and open bubbles are negative residuals (observed \< expected).
 :::
 
 ::: {#fig-PR_STTJ_RW_1-group6 layout-ncol="2"}
@@ -57,7 +57,7 @@ Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. Observed and 
 :::
 
 ::: {#fig-PR_STTJ_RW_1-group7 layout-ncol="2"}
-![Length comps PR Commercial pg. 5  of 5](/Scenarios/PR_STTJ_RW_1/plots/comp_lenfit_flt1mkt0_page5.png)
+![Length comps PR Commercial pg. 5 of 5](/Scenarios/PR_STTJ_RW_1/plots/comp_lenfit_flt1mkt0_page5.png)
 
 ![Length comps STTJ Commercial pg. 1 of 3](/Scenarios/PR_STTJ_RW_1/plots/comp_lenfit_flt2mkt0_page1.png)
 
@@ -129,5 +129,5 @@ Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. (a) Recruitme
 
 ![SPR Phase](/Scenarios/PR_STTJ_RW_1/plots/SPR4_phase.png)
 
-Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. (a) Time series of SPR. Horizontal reference line is at SPR target: 0.4; (b) time series of 1-SPR. Horizontal reference lines 1 and at 1 - SPR target: 1 - 0.4 = 0.6; (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass). Horizontal reference lines at 1 and SPR target: 0.4; and (d) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years.
+Puerto Rico Yellowtail Snapper Review Workshop Model PR_STTJ_RW_1. (a) Time series of SPR. Horizontal reference line is at SPR target: 0.4; (b) time series of 1-SPR. Horizontal reference lines 1 and at 1 - SPR target: 1 - 0.4 = 0.6; (c) the relative spawning stock biomass (total biomass / virgin spawning stock biomass). Horizontal reference line at SPR target: 0.4; and (d) phase plot of biomass ratio vs. SPR ratio where warmer colors (red) represent early years and colder colors (blue) represent recent years.
 :::
