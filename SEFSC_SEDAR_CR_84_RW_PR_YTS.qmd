@@ -18,10 +18,10 @@ format:
           \fancypagestyle{plain}{
             \fancyhf{}% Clear header/footer
             \renewcommand{\headrulewidth}{0pt}
-            \fancyhead[LE, LO]{July 2025}
-            \fancyhead[RE, RO]{US Caribbean Yellowtail Snapper – Puerto Rico}
-            \fancyfoot[LE, LO]{Addendum}
-            \fancyfoot[RE, RO]{Review Workshop Model Runs}
+            \fancyhead[LE, LO]{\textsl{August 2025}}
+            \fancyhead[RE, RO]{\textsl{US Caribbean Yellowtail Snapper – Puerto Rico}}
+            \fancyfoot[LE, LO]{\textsl{SEDAR 84 SAR SECTION VI}}
+            \fancyfoot[RE, RO]{\textsl{Addendum}}
             \fancyfoot[CE, CO]{\thepage}
           }
           \pagestyle{plain}% Set page style to plain.
